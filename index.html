@@ -15,16 +15,41 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>W3C Credentials Community Group</h1>
-        <p>Increasing trust on the Web, one spec at a time</p>
+        <h1>W3C CCG:</h1>
+        <p>Increasing trust on the Web, one spec at a time.</p>
 
+        <h2 id="meetings">Next Meeting</h2>
+        <p id="meetings">
+<strong><span class="icon icon-clock"></span> Date:</strong>
+<span id="meetingDate"></span><br>
+<strong><span class="icon icon-clock"></span> Time</strong>:
+ <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Credentials+Community+Group+Telecon&iso=20170801T12&p1=43&ah=1">12pm Boston</a><br>
 
-        <p class="view"><a href="https://github.com/w3c-ccg">View My GitHub Profile</a></p>
+<strong><span class="icon icon-phone-3"></span> Phone</strong>:
+<a href="tel:+15409614469;postd=p6306">+1.540.961.4469 x6306</a><br>
+
+<strong><span class="icon icon-mobile"></span> VoIP</strong>:
+<a href="sip:ccg@96.89.14.196">sip:ccg@96.89.14.196</a><br>
+
+<strong><span class="icon icon-bubble"></span> Chat</strong>:
+<a href="http://irc.w3.org/?channels=ccg">Web</a>, 
+<a href="irc://irc.w3.org:6665/#ccg">IRC</a><br>
+
+<strong><span class="icon icon-alarm"></span> Duration</strong>:
+60 minutes
+          </p>
+
+        <h2 id="links">Useful Links</h2>
+        <p class="view">
+&bull; <a href="https://github.com/w3c-ccg">Join Group</a><br>
+&bull; <a href="https://github.com/w3c-ccg">Mailing List</a><br>
+&bull; <a href="https://github.com/w3c-ccg">Github</a>
+        </p>
 
       </header>
       <section>
-        <h3>
-<a id="the-w3c-credentials-community-group" class="anchor" href="#the-w3c-credentials-community-group" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The W3C Credentials Community Group</h3>
+        <h2>
+<a id="the-w3c-credentials-community-group" class="anchor" href="#the-w3c-credentials-community-group" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The W3C Credentials Community Group</h2>
 
 <p>The mission of the <a href="https://www.w3.org/community/w3c-ccg/">W3C Credentials Community Group</a> is to ...</p>
 
@@ -56,6 +81,19 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+        <script>
+function nextTuesday() {
+  var skipUntil = new Date('2016-01-12 12:00:00 EST');
+  var date = new Date();
+  date.setDate(date.getDate() + (9 - date.getDay()) % 7);
+  if(date < skipUntil) {
+    date = skipUntil;
+  }
+  return date.toISOString().slice(0, 10);
+}
+console.log(nextTuesday());
+console.log(document.getElementById('meetingDate'));
+document.getElementById('meetingDate').innerHTML = nextTuesday();
+    </script>
   </body>
 </html>
