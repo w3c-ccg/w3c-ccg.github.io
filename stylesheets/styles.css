@@ -322,3 +322,60 @@ footer {
     color:#444;
   }
 }
+
+
+/* ==========================================================================
+   Meeting Minutes
+   ========================================================================== */
+dl > dd {
+  margin-left: 2em;
+}
+
+dl > dd > ol > li {
+  margin-left: 1em;
+}
+
+span.name {
+  font-weight: bold;
+}
+
+div.comment {
+  margin-top: 1em;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+div.information {
+  font-style: italic;
+  margin-top: 1em;
+}
+
+div.action {
+  padding: 15px;
+  margin: 20px 0px 20px 0px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+div.proposal {
+  padding: 15px;
+  margin: 20px 0px 20px 0px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #634688;
+  background-color: #DDD8F0;
+  border-color: #CEC6E9;
+}
+
+div.resolution {
+  padding: 15px;
+  margin: 20px 0px 20px 0px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
