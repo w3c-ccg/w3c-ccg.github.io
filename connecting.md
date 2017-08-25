@@ -3,15 +3,15 @@
 For the best experience, ensure you are connected through both audio and chat
 
 ## Audio
-We recommend you connect to our meetings with an SIP client. To do this, you need:
-- a SIP client installed on your device
-- a SIP account
+We recommend you connect to our meetings with an SIP client. To do this, you need a SIP client installed on your device.
 
-If you need help selecting a SIP client, [Linphone](http://www.linphone.org/) is an example SIP client that is free and available on many platforms. Here is [Linphone's account setup form](https://www.linphone.org/free-sip-service.html).
+If you need help selecting a SIP client, [Linphone](http://www.linphone.org/) is an example SIP client that is free and available on many platforms. 
 
 Once your SIP client is set up, connect to the CCG call at:
 
     sip:ccg@96.89.14.196
+    
+Note: if you also want a SIP account, you can use [Linphone's account setup form](https://www.linphone.org/free-sip-service.html).
 
 If for some reason you're not able to connect via a SIP client, you can dial in by phone: 
 
