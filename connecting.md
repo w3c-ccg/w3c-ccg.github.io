@@ -24,4 +24,4 @@ During the meeting, we use IRC to share links, keep meeting minutes, ask questio
 
 If you're unfamiliar with IRC, note that you can easily connect through a browser: [http://irc.w3.org/?channels=ccg](http://irc.w3.org/?channels=ccg)
 
-
+Now that you're connected, see the [IRC Command Reference](https://github.com/w3c-ccg/w3c-ccg.github.io/blob/master/irc_ref.md) for help with IRC commands.
