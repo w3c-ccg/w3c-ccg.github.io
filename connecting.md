@@ -7,6 +7,15 @@ We recommend you connect to our meetings with an SIP client. To do this, you nee
 
 If you need help selecting a SIP client, [Linphone](http://www.linphone.org/) is an example SIP client that is free and available on many platforms. 
 
+### Configuration
+
+1. Set your display name, which will be displayed in IRC. 
+    - In Linphone it's under Linphone > Preferences > SIP accounts > Default identity
+2. Update your settings to use a random SIP port (this will help avoid annoying calls)
+    - In Linphone it's under Linphone > Preferences > Network > Network protocol and Ports
+
+### Call
+
 Once your SIP client is set up, connect to the CCG call at:
 
     sip:ccg@96.89.14.196
