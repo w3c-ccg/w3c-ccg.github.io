@@ -1,5 +1,30 @@
 # IRC Commands Reference
 
+People that are participating in the meeting will find these commands useful:
+
+* voip: number? - Get the dial in numbers for the call.
+* /me ```TEXT``` - Say something off of the record. Everything else you type is recorded in the official transcript.
+* q? - See who is on the speaker queue.
+* q+ - Add yourself to the speaker queue.
+* q+ to say ```TEXT``` - Add yourself to the speaker queue while including a reminder to yourself on what you want to say.
+* q+ ```<alias>``` - Add someone else to the speaker queue.
+* q- ```<alias>``` - Remove someone from the speaker queue.
+* ack ```<alias>``` - Acknowledge someone to speak from the speaker queue.
+
+People that are running the meeting may find these commands useful:
+
+* agenda: ```<URL>``` - Specify the link for the meeting agenda.
+* scribe: ```<alias>``` - Specify the IRC nickcname of the person that is scribing.
+* topic: ```TEXT``` - Set the current topic of discussion.
+* voip: ```<last 3 digits of SIP/...>``` is ```<alias>``` - Associate a voice channel with an IRC nickname.
+* voip: noisy? - See which audio channels are being noisy. Useful for finding distracting audio from participants.
+* voip: mute ```<last 3 digits of SIP/...>``` - Mute an audio channel.
+* voip: unmute ```<last 3 digits of SIP/...>``` - Unmute an audio channel.
+* voip: disconnect ```<last 3 digits of SIP/...>``` - Disconnect an audio channel.
+* chair: ```<alias>``` - Specify the person running the meeting.
+* meeting: ```<TEXT>``` - Specify the title of the meeting.
+* date: ```<YYYY-MM-dd>``` - Specify the date of the meeting. Useful when creating minutes after the fact.
+
 ## Associate your phone number with your alias
 
 ### Command
