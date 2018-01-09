@@ -112,10 +112,12 @@ To publish the minutes, you must have the meetings Github repository checked out
 
 1. `git clone git@github.com:w3c-ccg/meetings.git w3c-ccg-meetings`
 1. `cp publishing.cfg.example publishing.cfg` (setup the text editor and audio editor variables in publishing.cfg)
+
+## Publishing
+
 1. `./download-raw-minutes`
 1. `cd <LATEST_MINUTES_DIRECTORY>` (e.g. `cd 2018-01-09`)
-1. Edit the WAV file to 1) delete all audio before the Chair starts talking about the Agenda, and 2) delete all audio after the first person hangs up at the end of the call. Basically, clean up the audio to save the content and save the new file as audio.wav.
-1. `oggenc -b 32 audio.wav`
+1. Edit the WAV file to 1) delete all audio before the Chair starts talking about the Agenda, and 2) delete all audio after the first person hangs up at the end of the call. Basically, clean up the audio to save the content and save the new file as audio.wav or encode to audio.ogg at 32kbps. For example: `oggenc -b 32 audio.wav`
 1. Go to https://w3c-ccg.github.io/meetings/scribe-tool/ and copy/paste irc.log into the text input box at the bottom. Clean up the IRC log accordingly and overwrite irc.log with the edited file.
 1. `cd ../scribe-tool`
 1. `./publish ../<LATEST_MINUTES_DIRECTORY>` (e.g. `./publish ../2018-01-09`)
