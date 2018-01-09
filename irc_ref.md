@@ -106,6 +106,13 @@ Agenda: https://lists.w3.org/Archives/Public/public-credentials/2017Jul/0040.htm
 
 This section documents how one can clean up and publish minutes.
 
+At the end of every call, the raw IRC log and audio recording are uploaded to:
+
+* https://w3c-ccg.s3.digitalbazaar.com/minutes/YYYY-MM-DD-irc.log
+* https://w3c-ccg.s3.digitalbazaar.com/minutes/YYYY-MM-DD-audio.wav
+
+What follows is how you take those raw files and process them to generate the finalized minutes for the meeting.
+
 ## Setup
 
 To publish the minutes, you must have the meetings Github repository checked out. WARNING: This is a very large, multi-gigabyte repository, don't try to download it without a good Internet connection. These instructions should work for Linux and Mac OS X systems.
