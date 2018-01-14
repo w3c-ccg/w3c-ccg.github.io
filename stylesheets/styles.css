@@ -348,8 +348,15 @@ div.summary {
 }
 
 div.comment {
+  font-family: 'Droid Serif', serif;
   margin-top: 0.5em;
   font-size: 1.25em;
+}
+
+.comment-continuation {
+  font-family: 'Droid Serif', serif;
+  font-size: 1.25em;
+  margin-left: 2em;
 }
 
 div.information {
