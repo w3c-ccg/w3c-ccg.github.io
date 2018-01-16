@@ -24,6 +24,7 @@ People that are running the meeting may find these commands useful:
 * chair: ```<alias>``` - Specify the person running the meeting.
 * meeting: ```<TEXT>``` - Specify the title of the meeting.
 * date: ```<YYYY-MM-dd>``` - Specify the date of the meeting. Useful when creating minutes after the fact.
+* action: ```<TEXT>``` - Add an action item
 
 ## Associate your phone number with your alias
 
