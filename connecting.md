@@ -13,6 +13,8 @@ If you need help selecting a SIP client, [Linphone](http://www.linphone.org/) is
     - In Linphone it's under Linphone > Preferences > SIP accounts > Default identity
 2. Update your settings to use a random SIP port (this will help avoid annoying calls)
     - In Linphone it's under Linphone > Preferences > Network > Network protocol and Ports
+3. *Probably* you'll need to disable IPv6
+    - In Linphone it's under Linephone > Preferences > Network > Transport -- toggle "allow IPv6"
 
 ### Call
 
