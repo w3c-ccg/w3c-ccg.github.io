@@ -26,7 +26,8 @@ Note: if you also want a SIP account, you can use [Linphone's account setup form
 
 If for some reason you're not able to connect via a SIP client, you can dial in by phone: 
 
-    +1.540.961.4469 x6306
+US phone: +1.540.274.1034 x6306
+EU phone: +33.9.74.59.31.06 x6306
 
 ## Chat
 During the meeting, we use IRC to share links, keep meeting minutes, ask questions, etc. The CCG IRC channel is:
