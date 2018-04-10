@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>W3C Credentials Community Group</title>
+
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>W3C CCG:</h1>
+        <p>Increasing trust on the Web, one spec at a time.</p>
+
+        <h2 id="meetings">Next Meeting</h2>
+        <p id="meetings">
+<strong><span class="icon icon-clock"></span> Date:</strong>
+<span id="meetingDate"></span><br>
+<strong><span class="icon icon-clock"></span> Time</strong>:
+ <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Credentials+Community+Group+Telecon&iso=20170801T12&p1=43&ah=1">12pm Boston</a><br>
+
+<strong><span class="icon icon-mobile"></span> Voice</strong>:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>VoIP:</strong> <a href="sip:ccg@96.89.14.196">sip:ccg@96.89.14.196</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>US phone:</strong> <a href="tel:+15402741034;postd=p6306">+1.540.274.1034 x6306</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>EU phone:</strong> <a href="tel:+33974593106;postd=p6306">+33.9.74.59.31.06 x6306</a><br>
+
+<strong><span class="icon icon-bubble"></span> Chat</strong>:
+<a href="http://irc.w3.org/?channels=ccg">Web</a>,
+<a href="irc://irc.w3.org:6665/#ccg">IRC</a><br>
+
+<strong><span class="icon icon-alarm"></span> Duration</strong>:
+60 minutes<br>
+
+<strong> Help</strong>: <a href="https://github.com/w3c-ccg/w3c-ccg.github.io/blob/master/connecting.md">Connecting to the calls</a><br>
+
+          </p>
+
+        <h2 id="links">Useful Links</h2>
+        <p class="view">
+&bull; <a href="https://github.com/w3c-ccg/w3c-ccg.github.io/blob/master/joining.md">Joining the Group</a><br>
+&bull; <a href="https://github.com/w3c-ccg/w3c-ccg.github.io/blob/master/connecting.md">Connecting to the calls</a><br>
+&bull; <a href="https://github.com/w3c-ccg/w3c-ccg.github.io/blob/master/irc_ref.md">Using IRC</a><br>
+&bull; <a href="./">Stories</a><br>
+&bull; <a href="../meetings/">Previous Meetings</a><br>
+&bull; <a href="https://lists.w3.org/Archives/Public/public-credentials/latest/">The Mailing List</a><br>
+&bull; <a href="https://www.w3.org/community/credentials/">The W3C Community Page</a><br>
+&bull; <a href="https://github.com/w3c-ccg/">Github</a><br>
+        </p>
+
+      </header>
+      <section>
+        <h2>
+<a id="the-w3c-credentials-community-group" class="anchor" href="#the-w3c-credentials-community-group" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stories</h2>
+
+<p>This page contains stories about the future that is being created by the W3C Credentials Community Group. Anyone may contribute a story and their viewpoint. Stories may be technical, science fiction, non-fiction, beat poetry, or anything that explores the possibilities of Decentralized Identifiers, Verifiable Credentials, or the worlds created by such technologies.</p>
+
+<h2>
+<a id="stories" class="anchor" href="#stories" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Stories</h2>
+
+<ul>
+  <li><a href="">Story 1</a> - BRIEF DESCRIPTION.</li>
+</ul>
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+
+    <script src="javascripts/scale.fix.js"></script>
+        <script>
+function nextTuesday() {
+  var skipUntil = new Date('2016-01-12 12:00:00 EST');
+  var date = new Date();
+  date.setDate(date.getDate() + (9 - date.getDay()) % 7);
+  if(date < skipUntil) {
+    date = skipUntil;
+  }
+  return date.toISOString().slice(0, 10);
+}
+console.log(nextTuesday());
+console.log(document.getElementById('meetingDate'));
+document.getElementById('meetingDate').innerHTML = nextTuesday();
+    </script>
+  </body>
+</html>
