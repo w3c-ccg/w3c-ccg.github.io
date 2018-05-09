@@ -119,7 +119,9 @@ What follows is how you take those raw files and process them to generate the fi
 To publish the minutes, you must have the meetings Github repository checked out. WARNING: This is a very large, multi-gigabyte repository, don't try to download it without a good Internet connection. These instructions should work for Linux and Mac OS X systems.
 
 1. `git clone git@github.com:w3c-ccg/meetings.git w3c-ccg-meetings`
-1. `cp publishing.cfg.example publishing.cfg` (setup the text editor and audio editor variables in publishing.cfg)
+1. `cp publishing.cfg.example publishing.cfg`
+1. Setup the text editor in publishing.cfg
+1. Ensure you have an audio editor installed and update and update the variable in publishing.cfg. The default editor used in the config file is [audacity](https://www.audacityteam.org/download/#).
 
 ## Publishing
 
