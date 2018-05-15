@@ -136,17 +136,24 @@ To publish the minutes, you must have the meetings Github repository checked out
     - If you don't have one, you can use Google's free SMTP server https://kinsta.com/knowledgebase/free-smtp-server/
     - Update the SCRAWL_EMAIL_* variables in publishing.cfg 
 
-## Downloading and editing raw minutes
+## Download
+Download the raw minutes:
+
 1. Run the `download-raw-minutes` script; flags/options are described below
     - `./download-raw-minutes` downloads the raw minutes and audio for the current date.
     - `./download-raw-minutes -l` downloads the raw minutes and audio for the current date and autolaunches the text and video editors afterward.
     - `./download-raw-minutes -d [YYYY-MM-DD]` downloads the raw minutes and audio for the specified date.
     - `./download-raw-minutes -h` prints help
 1. Minutes and audio are placed in a directory formatted as [YYYY-MM-DD], (e.g. `2018-01-09`)
+
+## Edit
+Edit the downloaded minutes:
+
 1. Edit the WAV file to 1) delete all audio before the Chair starts talking about the Agenda, and 2) delete all audio after the first person hangs up at the end of the call. Basically, clean up the audio to save the content and save the new file as audio.wav or encode to audio.ogg at 32kbps. For example: `oggenc -b 32 audio.wav`
 1. Go to https://w3c-ccg.github.io/meetings/scribe-tool/ and copy/paste irc.log into the text input box at the bottom. Clean up the IRC log accordingly and overwrite irc.log with the edited file.
 
-## Publishing
+## Publish
+Publish the minutes:
 
 1. `cd ../scribe-tool`
 1. `./publish ../<LATEST_MINUTES_DIRECTORY>` (e.g. `./publish ../2018-01-09`)
