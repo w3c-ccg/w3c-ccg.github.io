@@ -120,8 +120,21 @@ To publish the minutes, you must have the meetings Github repository checked out
 
 1. `git clone git@github.com:w3c-ccg/meetings.git w3c-ccg-meetings`
 1. `cp publishing.cfg.example publishing.cfg`
-1. Setup the text editor in publishing.cfg
-1. Ensure you have an audio editor installed and update and update the variable in publishing.cfg. The default editor used in the config file is [audacity](https://www.audacityteam.org/download/#).
+1. Update the `EDITOR` to your desired editor in publishing.cfg
+1. Install an audio editor update the associated variable in publishing.cfg. The default editor used in the config file is [audacity](https://www.audacityteam.org/download/).
+1. Enable api access to your Twitter account and update the associated variables in publishing.cfg
+    1. Go to https://apps.twitter.com/
+    1. Select "Create New App"
+    1. You can fill out any details; don't need a callback
+    1. Populate the SCRAWL_TWITTER_* variables in publishing.cfg
+1. Enable api access to your LinkedIn account and update associated variables in publishing.cfg
+    1. Go to https://www.linkedin.com/developer/apps
+    1. Select "Create Application"
+    1. After filling in details, generate a client id and secret
+    1. Populate the SCRAWL_LINKEDIN_* variables in publishing.cfg 
+1. Update publishing.cfg with your SMTP information for sending emails.
+    - If you don't have one, you can use Google's free SMTP server https://kinsta.com/knowledgebase/free-smtp-server/
+    - Update the SCRAWL_EMAIL_* variables in publishing.cfg 
 
 ## Publishing
 
