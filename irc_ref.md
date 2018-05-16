@@ -127,7 +127,7 @@ To publish the minutes, you must have the meetings Github repository checked out
     1. Select "Create New App"
     1. You can fill out any details; don't need a callback
     1. Populate the SCRAWL_TWITTER_* variables in publishing.cfg
-1. Enable api access to your LinkedIn account and update associated variables in publishing.cfg
+1. [NOT IMPLEMENTED YET: feel free to skip this step] Enable api access to your LinkedIn account and update associated variables in publishing.cfg
     1. Go to https://www.linkedin.com/developer/apps
     1. Select "Create Application"
     1. After filling in details, generate a client id and secret
