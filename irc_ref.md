@@ -159,3 +159,16 @@ Publish the minutes:
 1. `./publish ../<LATEST_MINUTES_DIRECTORY>` (e.g. `./publish ../2018-01-09`)
 
 If there are no errors, the latest minutes should now be published.
+
+## Debugging issues
+
+If using gmail's SMTP server, you may get an error message (ending like below) the first time; if so, just check your email to enable API access. 
+
+```
+   { Error: bad response on command 'cjdHOTJkNGI='
+     ...
+     code: 2,
+     smtp: '534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbvh\n534-5.7.14 IaUhK_-5AOCdpwIXJl2IjOdVTpJv15b1PByBixau67mqEq0Fll-90x-7pW_ffwpwGtNW1T\r\n534-5.7.14 B7nokaCYy9MsgZtK0_VFQsfj8NJks30BNBStBSJCwWQ4q_cih92MPe9UguqixShXYA1S3r\r\n534-5.7.14 6O9N-0wdU-QbrVawNogjL-z_lpAYFeaafanfWWlfBzRdI-tIz8JbNMYmiAbbq0AkyFo2TO\r\n534-5.7.14 QF_I9lGHt5nDzIsmW_5lyHxOC7fLQ> Please log in via your web browser and\r\n534-5.7.14 then try again.\r\n534-5.7.14  Learn more at\r\n534 5.7.14  https://support.google.com/mail/answer/78754 63-v6sm4339204pgi.4 - gsmtp\r\n' },
+  smtp: undefined }
+
+```
