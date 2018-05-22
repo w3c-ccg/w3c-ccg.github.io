@@ -156,7 +156,7 @@ Edit the downloaded minutes:
 Publish the minutes:
 
 1. `cd ../scribe-tool`
-1. `./publish ../<LATEST_MINUTES_DIRECTORY>` (e.g. `./publish ../2018-01-09`)
+1. `./publish -d ../<LATEST_MINUTES_DIRECTORY>` (e.g. `./publish -d ../2018-01-09`)
 
 If there are no errors, the latest minutes should now be published.
 
