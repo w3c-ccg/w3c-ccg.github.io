@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Credentials Communit Group Specification Roadmap</title>
+  <script src="https://github.com/mdaines/viz.js/releases/download/v2.0.0/viz.js"></script>
+  <script src="https://github.com/mdaines/viz.js/releases/download/v2.0.0/lite.render.js"></script>
+</head>
+<body>
+<script>
+  var viz = new Viz();
+
+  var specs = `
+digraph {
+  node [shape="box" style="rounded"]
+  ranksep = 1
+  rankdir = TB
+  rank = same
+
+  subgraph cluster_2018 {
+    label = "2018 Working Group Ready Specs"
+    "2018"
+    "Verifiable Credentials 1.0" -> "JSON-LD 1.1"
+    "2018 Credential Status List" -> "Verifiable Credentials 1.0"
+    "2018 Credential Status Blockchain" -> "Verifiable Credentials 1.0"
+    "2018 Credential Evidence" -> "Verifiable Credentials 1.0"
+  }
+
+  subgraph cluster_2019 {
+    label = "2019 Working Group Ready Specs"
+    labelloc = b
+    "2019"
+    "Decentralized Identifiers 1.0" -> "JSON-LD 1.1"
+    "HTTP DID Auth 1.0" -> "HTTP Signatures 1.0"
+  }
+
+  subgraph cluster_2020 {
+    label = "2020 Working Group Ready Specs"
+    "2020"
+    "LD Proofs 1.0" -> "JSON-LD 1.1"
+    "LD Signatures 1.0" -> "LD Proofs 1.0"
+    "LD Signatures 1.0" -> "RDF Dataset Normalization 1.0"
+    "2018 Equihash Cryptosuite" -> "LD Proofs 1.0"
+    "2018 Message Digest Cryptosuite" -> "LD Proofs 1.0"
+    "2018 Ed25519 Cryptosuite" -> "LD Signatures 1.0", "JWS 1.0"
+    "2018 RSA Cryptosuite" -> "LD Signatures 1.0", "JWS 1.0", "JWK 1.0"
+    "2018 Secp256k1 Cryptosuite" -> "LD Signatures 1.0", "JWS 1.0", "JWK 1.0"
+    "DID Resolution 1.0" -> "Decentralized Identifiers 1.0"
+  }
+
+  subgraph cluster_2021 {
+    label = "2021 Working Group Ready Specs"
+    "2021"
+    "Credential Handler 1.0" -> "Verifiable Credentials 1.0"
+    "WebAuthn DID Auth 1.0" -> "Credential Handler 1.0"
+    "BTCR DID Method 1.0" -> "Decentralized Identifiers 1.0"
+    "Ethr DID Method 1.0" -> "Decentralized Identifiers 1.0"
+    "Sovrin DID Method 1.0" -> "Decentralized Identifiers 1.0"
+    "Veres One DID Method 1.0" -> "Decentralized Identifiers 1.0"
+    "Veres One DID Method 1.0" -> "Web Ledger 1.0"
+    "DKMS 1.0" -> "Sovrin DID Method 1.0"
+  }
+
+  subgraph cluster_2022 {
+    label = "2022 Working Group Ready Specs"
+    "2022"
+    "HTTP OCAP Auth 1.0" -> "HTTP Signatures 1.0"
+    "HTTP OCAP Auth 1.0" -> "OCAP-LD 1.0"
+    "OCAP-LD 1.0" -> "LD Signatures 1.0"
+  }
+
+  "2018" -> "2019" -> "2020" -> "2021" -> "2022"
+
+}
+  `;
+
+  viz.renderSVGElement(specs)
+  .then(function(element) {
+    document.body.appendChild(element);
+  })
+  .catch(error => {
+    // Create a new Viz instance (@see Caveats page for more info)
+    viz = new Viz();
+
+    // Possibly display the error
+    console.error(error);
+  });
+</script>
+</body>
+</html>
