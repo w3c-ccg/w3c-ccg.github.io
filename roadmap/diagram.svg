@@ -1,0 +1,569 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1893pt" height="1196pt" viewBox="0.00 0.00 1892.68 1196.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1192)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-1192 1888.6764,-1192 1888.6764,4 -4,4"></polygon>
+<!-- past -->
+<g id="node1" class="node">
+<title>past</title>
+<path fill="#d3d3d3" stroke="transparent" d="M109,-1188C109,-1188 79,-1188 79,-1188 73,-1188 67,-1182 67,-1176 67,-1176 67,-1164 67,-1164 67,-1158 73,-1152 79,-1152 79,-1152 109,-1152 109,-1152 115,-1152 121,-1158 121,-1164 121,-1164 121,-1176 121,-1176 121,-1182 115,-1188 109,-1188"></path>
+<text text-anchor="middle" x="94" y="-1164" font-family="Times,serif" font-size="20.00" fill="#000000">past</text>
+</g>
+<!-- 2018a -->
+<!-- past&#45;&gt;2018a -->
+<!-- 2018 -->
+<g id="node3" class="node">
+<title>2018</title>
+<path fill="#d3d3d3" stroke="transparent" d="M110,-1044C110,-1044 78,-1044 78,-1044 72,-1044 66,-1038 66,-1032 66,-1032 66,-1020 66,-1020 66,-1014 72,-1008 78,-1008 78,-1008 110,-1008 110,-1008 116,-1008 122,-1014 122,-1020 122,-1020 122,-1032 122,-1032 122,-1038 116,-1044 110,-1044"></path>
+<text text-anchor="middle" x="94" y="-1020" font-family="Times,serif" font-size="20.00" fill="#000000">2018</text>
+</g>
+<!-- past&#45;&gt;2018 -->
+<g id="edge17" class="edge">
+<title>past-&gt;2018</title>
+<path fill="none" stroke="#6e7b8b" d="M94,-1151.7623C94,-1127.201 94,-1083.2474 94,-1054.3541"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="97.5001,-1054.0896 94,-1044.0896 90.5001,-1054.0897 97.5001,-1054.0896"></polygon>
+</g>
+<!-- 2018a&#45;&gt;2018 -->
+<!-- 2018b -->
+<!-- 2018&#45;&gt;2018b -->
+<!-- 2019 -->
+<g id="node6" class="node">
+<title>2019</title>
+<path fill="#d3d3d3" stroke="transparent" d="M110,-828C110,-828 78,-828 78,-828 72,-828 66,-822 66,-816 66,-816 66,-804 66,-804 66,-798 72,-792 78,-792 78,-792 110,-792 110,-792 116,-792 122,-798 122,-804 122,-804 122,-816 122,-816 122,-822 116,-828 110,-828"></path>
+<text text-anchor="middle" x="94" y="-804" font-family="Times,serif" font-size="20.00" fill="#000000">2019</text>
+</g>
+<!-- 2018&#45;&gt;2019 -->
+<g id="edge18" class="edge">
+<title>2018-&gt;2019</title>
+<path fill="none" stroke="#6e7b8b" d="M94,-1007.9555C94,-970.3938 94,-883.5541 94,-838.4103"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="97.5001,-838.145 94,-828.1451 90.5001,-838.1451 97.5001,-838.145"></polygon>
+</g>
+<!-- 2019a -->
+<!-- 2018b&#45;&gt;2019a -->
+<!-- 2019a&#45;&gt;2019 -->
+<!-- 2019b -->
+<!-- 2019&#45;&gt;2019b -->
+<!-- 2020 -->
+<g id="node9" class="node">
+<title>2020</title>
+<path fill="#d3d3d3" stroke="transparent" d="M110,-612C110,-612 78,-612 78,-612 72,-612 66,-606 66,-600 66,-600 66,-588 66,-588 66,-582 72,-576 78,-576 78,-576 110,-576 110,-576 116,-576 122,-582 122,-588 122,-588 122,-600 122,-600 122,-606 116,-612 110,-612"></path>
+<text text-anchor="middle" x="94" y="-588" font-family="Times,serif" font-size="20.00" fill="#000000">2020</text>
+</g>
+<!-- 2019&#45;&gt;2020 -->
+<g id="edge19" class="edge">
+<title>2019-&gt;2020</title>
+<path fill="none" stroke="#6e7b8b" d="M94,-791.9555C94,-754.3938 94,-667.5541 94,-622.4103"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="97.5001,-622.145 94,-612.1451 90.5001,-622.1451 97.5001,-622.145"></polygon>
+</g>
+<!-- 2020a -->
+<!-- 2019b&#45;&gt;2020a -->
+<!-- 2020a&#45;&gt;2020 -->
+<!-- 2020b -->
+<!-- 2020&#45;&gt;2020b -->
+<!-- 2021 -->
+<g id="node12" class="node">
+<title>2021</title>
+<path fill="#d3d3d3" stroke="transparent" d="M110,-396C110,-396 78,-396 78,-396 72,-396 66,-390 66,-384 66,-384 66,-372 66,-372 66,-366 72,-360 78,-360 78,-360 110,-360 110,-360 116,-360 122,-366 122,-372 122,-372 122,-384 122,-384 122,-390 116,-396 110,-396"></path>
+<text text-anchor="middle" x="94" y="-372" font-family="Times,serif" font-size="20.00" fill="#000000">2021</text>
+</g>
+<!-- 2020&#45;&gt;2021 -->
+<g id="edge20" class="edge">
+<title>2020-&gt;2021</title>
+<path fill="none" stroke="#6e7b8b" d="M94,-575.9555C94,-538.3938 94,-451.5541 94,-406.4103"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="97.5001,-406.145 94,-396.1451 90.5001,-406.1451 97.5001,-406.145"></polygon>
+</g>
+<!-- 2021a -->
+<!-- 2020b&#45;&gt;2021a -->
+<!-- 2021a&#45;&gt;2021 -->
+<!-- 2021b -->
+<!-- 2021&#45;&gt;2021b -->
+<!-- 2022 -->
+<g id="node15" class="node">
+<title>2022</title>
+<path fill="#d3d3d3" stroke="transparent" d="M110,-180C110,-180 78,-180 78,-180 72,-180 66,-174 66,-168 66,-168 66,-156 66,-156 66,-150 72,-144 78,-144 78,-144 110,-144 110,-144 116,-144 122,-150 122,-156 122,-156 122,-168 122,-168 122,-174 116,-180 110,-180"></path>
+<text text-anchor="middle" x="94" y="-156" font-family="Times,serif" font-size="20.00" fill="#000000">2022</text>
+</g>
+<!-- 2021&#45;&gt;2022 -->
+<g id="edge21" class="edge">
+<title>2021-&gt;2022</title>
+<path fill="none" stroke="#6e7b8b" d="M94,-359.9555C94,-322.3938 94,-235.5541 94,-190.4103"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="97.5001,-190.145 94,-180.1451 90.5001,-190.1451 97.5001,-190.145"></polygon>
+</g>
+<!-- 2022a -->
+<!-- 2021b&#45;&gt;2022a -->
+<!-- 2022a&#45;&gt;2022 -->
+<!-- 2022b -->
+<!-- 2022&#45;&gt;2022b -->
+<!-- future -->
+<g id="node17" class="node">
+<title>future</title>
+<path fill="#d3d3d3" stroke="transparent" d="M113.7525,-36C113.7525,-36 74.2475,-36 74.2475,-36 68.2475,-36 62.2475,-30 62.2475,-24 62.2475,-24 62.2475,-12 62.2475,-12 62.2475,-6 68.2475,0 74.2475,0 74.2475,0 113.7525,0 113.7525,0 119.7525,0 125.7525,-6 125.7525,-12 125.7525,-12 125.7525,-24 125.7525,-24 125.7525,-30 119.7525,-36 113.7525,-36"></path>
+<text text-anchor="middle" x="94" y="-12" font-family="Times,serif" font-size="20.00" fill="#000000">future</text>
+</g>
+<!-- 2022&#45;&gt;future -->
+<g id="edge22" class="edge">
+<title>2022-&gt;future</title>
+<path fill="none" stroke="#6e7b8b" d="M94,-143.7623C94,-119.201 94,-75.2474 94,-46.3541"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="97.5001,-46.0896 94,-36.0896 90.5001,-46.0897 97.5001,-46.0896"></polygon>
+</g>
+<!-- 2022b&#45;&gt;future -->
+<!-- Verifiable Credentials 1.0 -->
+<g id="node18" class="node">
+<title>Verifiable Credentials 1.0</title>
+<g id="a_node18"><a xlink:href="https://w3c.github.io/vc-data-model/" xlink:title="Verifiable Credentials 1.0">
+<path fill="#cce2ff" stroke="#000000" d="M809.5008,-1116C809.5008,-1116 672.4992,-1116 672.4992,-1116 666.4992,-1116 660.4992,-1110 660.4992,-1104 660.4992,-1104 660.4992,-1092 660.4992,-1092 660.4992,-1086 666.4992,-1080 672.4992,-1080 672.4992,-1080 809.5008,-1080 809.5008,-1080 815.5008,-1080 821.5008,-1086 821.5008,-1092 821.5008,-1092 821.5008,-1104 821.5008,-1104 821.5008,-1110 815.5008,-1116 809.5008,-1116"></path>
+<text text-anchor="middle" x="741" y="-1093.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">Verifiable Credentials 1.0</text>
+</a>
+</g>
+</g>
+<!-- JSON&#45;LD 1.1 -->
+<g id="node19" class="node">
+<title>JSON-LD 1.1</title>
+<g id="a_node19"><a xlink:href="https://json-ld.org/spec/latest/json-ld/" xlink:title="JSON-LD 1.1">
+<path fill="#cce2ff" stroke="#000000" d="M1461.7605,-1116C1461.7605,-1116 1392.2395,-1116 1392.2395,-1116 1386.2395,-1116 1380.2395,-1110 1380.2395,-1104 1380.2395,-1104 1380.2395,-1092 1380.2395,-1092 1380.2395,-1086 1386.2395,-1080 1392.2395,-1080 1392.2395,-1080 1461.7605,-1080 1461.7605,-1080 1467.7605,-1080 1473.7605,-1086 1473.7605,-1092 1473.7605,-1092 1473.7605,-1104 1473.7605,-1104 1473.7605,-1110 1467.7605,-1116 1461.7605,-1116"></path>
+<text text-anchor="middle" x="1427" y="-1093.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">JSON-LD 1.1</text>
+</a>
+</g>
+</g>
+<!-- Verifiable Credentials 1.0&#45;&gt;JSON&#45;LD 1.1 -->
+<g id="edge23" class="edge">
+<title>Verifiable Credentials 1.0-&gt;JSON-LD 1.1</title>
+<path fill="none" stroke="#6e7b8b" d="M821.7256,-1098C1004.4578,-1098 1187.1901,-1098 1369.9223,-1098"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1370.0085,-1101.5001 1380.0085,-1098 1370.0084,-1094.5001 1370.0085,-1101.5001"></polygon>
+</g>
+<!-- LD Signatures 1.0 -->
+<g id="node20" class="node">
+<title>LD Signatures 1.0</title>
+<g id="a_node20"><a xlink:href="https://w3c-dvcg.github.io/ld-signatures/" xlink:title="LD Signatures 1.0">
+<path fill="#cce2ff" stroke="#000000" d="M578.2577,-612C578.2577,-612 483.7423,-612 483.7423,-612 477.7423,-612 471.7423,-606 471.7423,-600 471.7423,-600 471.7423,-588 471.7423,-588 471.7423,-582 477.7423,-576 483.7423,-576 483.7423,-576 578.2577,-576 578.2577,-576 584.2577,-576 590.2577,-582 590.2577,-588 590.2577,-588 590.2577,-600 590.2577,-600 590.2577,-606 584.2577,-612 578.2577,-612"></path>
+<text text-anchor="middle" x="531" y="-589.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">LD Signatures 1.0</text>
+</a>
+</g>
+</g>
+<!-- Verifiable Credentials 1.0&#45;&gt;LD Signatures 1.0 -->
+<g id="edge24" class="edge">
+<title>Verifiable Credentials 1.0-&gt;LD Signatures 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M660.3036,-1084.5064C553.876,-1064.8496 375.6301,-1024.8466 338,-972 328.7194,-958.9666 333.2388,-951.2752 338,-936 378.5015,-806.0613 458.2246,-809.0306 512,-684 520.4918,-664.2562 525.3062,-640.3971 527.9629,-622.2067"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="531.4414,-622.5995 529.2892,-612.2255 524.5024,-621.6773 531.4414,-622.5995"></polygon>
+</g>
+<!-- LD Proofs 1.0 -->
+<g id="node28" class="node">
+<title>LD Proofs 1.0</title>
+<g id="a_node28"><a xlink:href="https://w3c-dvcg.github.io/ld-proofs/" xlink:title="LD Proofs 1.0">
+<path fill="#cce2ff" stroke="#000000" d="M1603.708,-612C1603.708,-612 1532.292,-612 1532.292,-612 1526.292,-612 1520.292,-606 1520.292,-600 1520.292,-600 1520.292,-588 1520.292,-588 1520.292,-582 1526.292,-576 1532.292,-576 1532.292,-576 1603.708,-576 1603.708,-576 1609.708,-576 1615.708,-582 1615.708,-588 1615.708,-588 1615.708,-600 1615.708,-600 1615.708,-606 1609.708,-612 1603.708,-612"></path>
+<text text-anchor="middle" x="1568" y="-589.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">LD Proofs 1.0</text>
+</a>
+</g>
+</g>
+<!-- LD Signatures 1.0&#45;&gt;LD Proofs 1.0 -->
+<g id="edge32" class="edge">
+<title>LD Signatures 1.0-&gt;LD Proofs 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M590.224,-599.5661C768.7712,-615.8261 1299.9438,-660.2467 1470,-630 1486.2491,-627.1099 1503.3372,-621.7213 1518.6117,-615.9773"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1520.3163,-619.0692 1528.3603,-612.174 1517.7721,-612.548 1520.3163,-619.0692"></polygon>
+</g>
+<!-- RDF Dataset Normalization 1.0 -->
+<g id="node29" class="node">
+<title>RDF Dataset Normalization 1.0</title>
+<g id="a_node29"><a xlink:href="https://json-ld.github.io/normalization/spec/" xlink:title="RDF Dataset Normalization 1.0">
+<path fill="#cce2ff" stroke="#000000" d="M491.066,-684C491.066,-684 320.934,-684 320.934,-684 314.934,-684 308.934,-678 308.934,-672 308.934,-672 308.934,-660 308.934,-660 308.934,-654 314.934,-648 320.934,-648 320.934,-648 491.066,-648 491.066,-648 497.066,-648 503.066,-654 503.066,-660 503.066,-660 503.066,-672 503.066,-672 503.066,-678 497.066,-684 491.066,-684"></path>
+<text text-anchor="middle" x="406" y="-661.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">RDF Dataset Normalization 1.0</text>
+</a>
+</g>
+</g>
+<!-- LD Signatures 1.0&#45;&gt;RDF Dataset Normalization 1.0 -->
+<g id="edge33" class="edge">
+<title>LD Signatures 1.0-&gt;RDF Dataset Normalization 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M499.4673,-612.1628C483.3325,-621.4565 463.5133,-632.8724 446.2835,-642.7967"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="444.4612,-639.8072 437.5428,-647.8314 447.9551,-645.873 444.4612,-639.8072"></polygon>
+</g>
+<!-- 2018 Credential Status List -->
+<g id="node21" class="node">
+<title>2018 Credential Status List</title>
+<g id="a_node21"><a xlink:href="https://w3c-ccg.github.io/vc-csl2017/" xlink:title="2018 Credential Status List">
+<path fill="#f3ccff" stroke="#000000" d="M503.3143,-972C503.3143,-972 358.6857,-972 358.6857,-972 352.6857,-972 346.6857,-966 346.6857,-960 346.6857,-960 346.6857,-948 346.6857,-948 346.6857,-942 352.6857,-936 358.6857,-936 358.6857,-936 503.3143,-936 503.3143,-936 509.3143,-936 515.3143,-942 515.3143,-948 515.3143,-948 515.3143,-960 515.3143,-960 515.3143,-966 509.3143,-972 503.3143,-972"></path>
+<text text-anchor="middle" x="431" y="-949.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">2018 Credential Status List</text>
+</a>
+</g>
+</g>
+<!-- 2018 Credential Status List&#45;&gt;Verifiable Credentials 1.0 -->
+<g id="edge25" class="edge">
+<title>2018 Credential Status List-&gt;Verifiable Credentials 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M470.0323,-972.1311C526.6919,-998.4504 631.6331,-1047.1973 692.9641,-1075.6866"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="691.5084,-1078.8695 702.0522,-1079.9081 694.4574,-1072.521 691.5084,-1078.8695"></polygon>
+</g>
+<!-- 2018 Credential Status Blockchain -->
+<g id="node22" class="node">
+<title>2018 Credential Status Blockchain</title>
+<path fill="#f9a9a9" stroke="#000000" d="M732.2975,-972C732.2975,-972 545.7025,-972 545.7025,-972 539.7025,-972 533.7025,-966 533.7025,-960 533.7025,-960 533.7025,-948 533.7025,-948 533.7025,-942 539.7025,-936 545.7025,-936 545.7025,-936 732.2975,-936 732.2975,-936 738.2975,-936 744.2975,-942 744.2975,-948 744.2975,-948 744.2975,-960 744.2975,-960 744.2975,-966 738.2975,-972 732.2975,-972"></path>
+<text text-anchor="middle" x="639" y="-949.8" font-family="Times,serif" font-size="14.00" fill="#000000">2018 Credential Status Blockchain</text>
+</g>
+<!-- 2018 Credential Status Blockchain&#45;&gt;Verifiable Credentials 1.0 -->
+<g id="edge26" class="edge">
+<title>2018 Credential Status Blockchain-&gt;Verifiable Credentials 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M651.8135,-972.0896C669.5376,-997.1119 701.6611,-1042.4628 722.1317,-1071.3623"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="719.4453,-1073.6251 728.0816,-1079.7623 725.1575,-1069.579 719.4453,-1073.6251"></polygon>
+</g>
+<!-- 2018 Credential Evidence -->
+<g id="node23" class="node">
+<title>2018 Credential Evidence</title>
+<path fill="#f9a9a9" stroke="#000000" d="M911.9003,-972C911.9003,-972 774.0997,-972 774.0997,-972 768.0997,-972 762.0997,-966 762.0997,-960 762.0997,-960 762.0997,-948 762.0997,-948 762.0997,-942 768.0997,-936 774.0997,-936 774.0997,-936 911.9003,-936 911.9003,-936 917.9003,-936 923.9003,-942 923.9003,-948 923.9003,-948 923.9003,-960 923.9003,-960 923.9003,-966 917.9003,-972 911.9003,-972"></path>
+<text text-anchor="middle" x="843" y="-949.8" font-family="Times,serif" font-size="14.00" fill="#000000">2018 Credential Evidence</text>
+</g>
+<!-- 2018 Credential Evidence&#45;&gt;Verifiable Credentials 1.0 -->
+<g id="edge27" class="edge">
+<title>2018 Credential Evidence-&gt;Verifiable Credentials 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M830.1865,-972.0896C812.4624,-997.1119 780.3389,-1042.4628 759.8683,-1071.3623"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="756.8425,-1069.579 753.9184,-1079.7623 762.5547,-1073.6251 756.8425,-1069.579"></polygon>
+</g>
+<!-- Decentralized Identifiers 1.0 -->
+<g id="node24" class="node">
+<title>Decentralized Identifiers 1.0</title>
+<g id="a_node24"><a xlink:href="https://w3c-ccg.github.io/did-spec/" xlink:title="Decentralized Identifiers 1.0">
+<path fill="#f3ccff" stroke="#000000" d="M1502.7542,-828C1502.7542,-828 1351.2458,-828 1351.2458,-828 1345.2458,-828 1339.2458,-822 1339.2458,-816 1339.2458,-816 1339.2458,-804 1339.2458,-804 1339.2458,-798 1345.2458,-792 1351.2458,-792 1351.2458,-792 1502.7542,-792 1502.7542,-792 1508.7542,-792 1514.7542,-798 1514.7542,-804 1514.7542,-804 1514.7542,-816 1514.7542,-816 1514.7542,-822 1508.7542,-828 1502.7542,-828"></path>
+<text text-anchor="middle" x="1427" y="-805.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">Decentralized Identifiers 1.0</text>
+</a>
+</g>
+</g>
+<!-- Decentralized Identifiers 1.0&#45;&gt;JSON&#45;LD 1.1 -->
+<g id="edge28" class="edge">
+<title>Decentralized Identifiers 1.0-&gt;JSON-LD 1.1</title>
+<path fill="none" stroke="#6e7b8b" d="M1427,-828.0089C1427,-876.6912 1427,-1011.1886 1427,-1069.9345"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1423.5001,-1069.9843 1427,-1079.9843 1430.5001,-1069.9843 1423.5001,-1069.9843"></polygon>
+</g>
+<!-- HTTP DID Auth 1.0 -->
+<g id="node25" class="node">
+<title>HTTP DID Auth 1.0</title>
+<g id="a_node25"><a xlink:href="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/topics-and-advance-readings/DID%20Auth:%20Scope%2C%20Formats%2C%20and%20Protocols.md" xlink:title="HTTP DID Auth 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M1156.8655,-828C1156.8655,-828 1049.1345,-828 1049.1345,-828 1043.1345,-828 1037.1345,-822 1037.1345,-816 1037.1345,-816 1037.1345,-804 1037.1345,-804 1037.1345,-798 1043.1345,-792 1049.1345,-792 1049.1345,-792 1156.8655,-792 1156.8655,-792 1162.8655,-792 1168.8655,-798 1168.8655,-804 1168.8655,-804 1168.8655,-816 1168.8655,-816 1168.8655,-822 1162.8655,-828 1156.8655,-828"></path>
+<text text-anchor="middle" x="1103" y="-805.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">HTTP DID Auth 1.0</text>
+</a>
+</g>
+</g>
+<!-- HTTP Signatures 1.0 -->
+<g id="node26" class="node">
+<title>HTTP Signatures 1.0</title>
+<g id="a_node26"><a xlink:href="https://tools.ietf.org/html/draft-cavage-http-signatures" xlink:title="HTTP Signatures 1.0">
+<path fill="#cce2ff" stroke="#000000" d="M1309.0932,-828C1309.0932,-828 1198.9068,-828 1198.9068,-828 1192.9068,-828 1186.9068,-822 1186.9068,-816 1186.9068,-816 1186.9068,-804 1186.9068,-804 1186.9068,-798 1192.9068,-792 1198.9068,-792 1198.9068,-792 1309.0932,-792 1309.0932,-792 1315.0932,-792 1321.0932,-798 1321.0932,-804 1321.0932,-804 1321.0932,-816 1321.0932,-816 1321.0932,-822 1315.0932,-828 1309.0932,-828"></path>
+<text text-anchor="middle" x="1254" y="-805.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">HTTP Signatures 1.0</text>
+</a>
+</g>
+</g>
+<!-- HTTP DID Auth 1.0&#45;&gt;HTTP Signatures 1.0 -->
+<g id="edge29" class="edge">
+<title>HTTP DID Auth 1.0-&gt;HTTP Signatures 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1169.0625,-810C1171.5354,-810 1174.0082,-810 1176.4811,-810"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1176.6473,-813.5001 1186.6472,-810 1176.6472,-806.5001 1176.6473,-813.5001"></polygon>
+</g>
+<!-- DID Resolution 1.0 -->
+<g id="node27" class="node">
+<title>DID Resolution 1.0</title>
+<g id="a_node27"><a xlink:href="https://w3c-ccg.github.io/did-resolution/" xlink:title="DID Resolution 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M1189.0414,-612C1189.0414,-612 1086.9586,-612 1086.9586,-612 1080.9586,-612 1074.9586,-606 1074.9586,-600 1074.9586,-600 1074.9586,-588 1074.9586,-588 1074.9586,-582 1080.9586,-576 1086.9586,-576 1086.9586,-576 1189.0414,-576 1189.0414,-576 1195.0414,-576 1201.0414,-582 1201.0414,-588 1201.0414,-588 1201.0414,-600 1201.0414,-600 1201.0414,-606 1195.0414,-612 1189.0414,-612"></path>
+<text text-anchor="middle" x="1138" y="-589.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">DID Resolution 1.0</text>
+</a>
+</g>
+</g>
+<!-- HTTP DID Auth 1.0&#45;&gt;DID Resolution 1.0 -->
+<g id="edge30" class="edge">
+<title>HTTP DID Auth 1.0-&gt;DID Resolution 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1105.9239,-791.9555C1112.0231,-754.3144 1126.141,-667.1867 1133.4428,-622.1246"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1136.9152,-622.5762 1135.0598,-612.1451 1130.0053,-621.4565 1136.9152,-622.5762"></polygon>
+</g>
+<!-- DID Resolution 1.0&#45;&gt;Decentralized Identifiers 1.0 -->
+<g id="edge44" class="edge">
+<title>DID Resolution 1.0-&gt;Decentralized Identifiers 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1141.3727,-612.1917C1148.5981,-645.8862 1168.8213,-718.0223 1215,-756 1224.6455,-763.9325 1280.338,-777.9676 1332.217,-789.7409"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1331.6621,-793.2035 1342.1868,-791.9868 1333.2005,-786.3747 1331.6621,-793.2035"></polygon>
+</g>
+<!-- LD Proofs 1.0&#45;&gt;JSON&#45;LD 1.1 -->
+<g id="edge31" class="edge">
+<title>LD Proofs 1.0-&gt;JSON-LD 1.1</title>
+<path fill="none" stroke="#6e7b8b" d="M1566.3424,-612.1674C1563.9991,-639.4608 1560,-692.6802 1560,-738 1560,-954 1560,-954 1560,-954 1560,-1007.9443 1509.0089,-1050.2939 1470.1727,-1074.7255"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1468.31,-1071.7619 1461.597,-1079.9586 1471.9563,-1077.7372 1468.31,-1071.7619"></polygon>
+</g>
+<!-- 2018 Equihash Cryptosuite -->
+<g id="node30" class="node">
+<title>2018 Equihash Cryptosuite</title>
+<path fill="#f9a9a9" stroke="#000000" d="M1649.4312,-540C1649.4312,-540 1504.5688,-540 1504.5688,-540 1498.5688,-540 1492.5688,-534 1492.5688,-528 1492.5688,-528 1492.5688,-516 1492.5688,-516 1492.5688,-510 1498.5688,-504 1504.5688,-504 1504.5688,-504 1649.4312,-504 1649.4312,-504 1655.4312,-504 1661.4312,-510 1661.4312,-516 1661.4312,-516 1661.4312,-528 1661.4312,-528 1661.4312,-534 1655.4312,-540 1649.4312,-540"></path>
+<text text-anchor="middle" x="1577" y="-517.8" font-family="Times,serif" font-size="14.00" fill="#000000">2018 Equihash Cryptosuite</text>
+</g>
+<!-- 2018 Equihash Cryptosuite&#45;&gt;LD Proofs 1.0 -->
+<g id="edge34" class="edge">
+<title>2018 Equihash Cryptosuite-&gt;LD Proofs 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1574.6983,-540.4133C1573.732,-548.1442 1572.5863,-557.3097 1571.5182,-565.8545"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1568.0385,-565.4744 1570.2711,-575.8314 1574.9845,-566.3427 1568.0385,-565.4744"></polygon>
+</g>
+<!-- 2018 Message Digest Cryptosuite -->
+<g id="node31" class="node">
+<title>2018 Message Digest Cryptosuite</title>
+<path fill="#f9a9a9" stroke="#000000" d="M1872.8531,-540C1872.8531,-540 1691.1469,-540 1691.1469,-540 1685.1469,-540 1679.1469,-534 1679.1469,-528 1679.1469,-528 1679.1469,-516 1679.1469,-516 1679.1469,-510 1685.1469,-504 1691.1469,-504 1691.1469,-504 1872.8531,-504 1872.8531,-504 1878.8531,-504 1884.8531,-510 1884.8531,-516 1884.8531,-516 1884.8531,-528 1884.8531,-528 1884.8531,-534 1878.8531,-540 1872.8531,-540"></path>
+<text text-anchor="middle" x="1782" y="-517.8" font-family="Times,serif" font-size="14.00" fill="#000000">2018 Message Digest Cryptosuite</text>
+</g>
+<!-- 2018 Message Digest Cryptosuite&#45;&gt;LD Proofs 1.0 -->
+<g id="edge35" class="edge">
+<title>2018 Message Digest Cryptosuite-&gt;LD Proofs 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1728.3661,-540.0451C1697.004,-550.5968 1657.4203,-563.9147 1625.4271,-574.6787"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1624.1212,-571.4252 1615.7594,-577.9314 1626.3535,-578.0598 1624.1212,-571.4252"></polygon>
+</g>
+<!-- 2018 Ed25519 Cryptosuite -->
+<g id="node32" class="node">
+<title>2018 Ed25519 Cryptosuite</title>
+<g id="a_node32"><a xlink:href="https://w3c-dvcg.github.io/lds-ed25519-2018/" xlink:title="2018 Ed25519 Cryptosuite">
+<path fill="#cce2ff" stroke="#000000" d="M276.3808,-540C276.3808,-540 133.6192,-540 133.6192,-540 127.6192,-540 121.6192,-534 121.6192,-528 121.6192,-528 121.6192,-516 121.6192,-516 121.6192,-510 127.6192,-504 133.6192,-504 133.6192,-504 276.3808,-504 276.3808,-504 282.3808,-504 288.3808,-510 288.3808,-516 288.3808,-516 288.3808,-528 288.3808,-528 288.3808,-534 282.3808,-540 276.3808,-540"></path>
+<text text-anchor="middle" x="205" y="-517.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">2018 Ed25519 Cryptosuite</text>
+</a>
+</g>
+</g>
+<!-- 2018 Ed25519 Cryptosuite&#45;&gt;LD Signatures 1.0 -->
+<g id="edge36" class="edge">
+<title>2018 Ed25519 Cryptosuite-&gt;LD Signatures 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M286.7032,-540.0449C340.5918,-551.9467 410.4153,-567.3678 461.6061,-578.6738"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="461.0661,-582.1388 471.5856,-580.8778 462.5758,-575.3035 461.0661,-582.1388"></polygon>
+</g>
+<!-- JWS 1.0 -->
+<g id="node33" class="node">
+<title>JWS 1.0</title>
+<g id="a_node33"><a xlink:href="https://tools.ietf.org/html/rfc7515" xlink:title="JWS 1.0">
+<path fill="#d3ffcc" stroke="#000000" d="M262.9433,-1188C262.9433,-1188 223.0567,-1188 223.0567,-1188 217.0567,-1188 211.0567,-1182 211.0567,-1176 211.0567,-1176 211.0567,-1164 211.0567,-1164 211.0567,-1158 217.0567,-1152 223.0567,-1152 223.0567,-1152 262.9433,-1152 262.9433,-1152 268.9433,-1152 274.9433,-1158 274.9433,-1164 274.9433,-1164 274.9433,-1176 274.9433,-1176 274.9433,-1182 268.9433,-1188 262.9433,-1188"></path>
+<text text-anchor="middle" x="243" y="-1165.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">JWS 1.0</text>
+</a>
+</g>
+</g>
+<!-- 2018 Ed25519 Cryptosuite&#45;&gt;JWS 1.0 -->
+<g id="edge37" class="edge">
+<title>2018 Ed25519 Cryptosuite-&gt;JWS 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M205,-540.1854C205,-567.5017 205,-620.75 205,-666 205,-1026 205,-1026 205,-1026 205,-1067.6319 220.0328,-1113.86 231.1881,-1142.433"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="227.9632,-1143.7945 234.9412,-1151.7668 234.4578,-1141.183 227.9632,-1143.7945"></polygon>
+</g>
+<!-- 2018 RSA Cryptosuite -->
+<g id="node34" class="node">
+<title>2018 RSA Cryptosuite</title>
+<g id="a_node34"><a xlink:href="https://w3c-dvcg.github.io/lds-rsa2018/" xlink:title="2018 RSA Cryptosuite">
+<path fill="#cce2ff" stroke="#000000" d="M968.5547,-540C968.5547,-540 849.4453,-540 849.4453,-540 843.4453,-540 837.4453,-534 837.4453,-528 837.4453,-528 837.4453,-516 837.4453,-516 837.4453,-510 843.4453,-504 849.4453,-504 849.4453,-504 968.5547,-504 968.5547,-504 974.5547,-504 980.5547,-510 980.5547,-516 980.5547,-516 980.5547,-528 980.5547,-528 980.5547,-534 974.5547,-540 968.5547,-540"></path>
+<text text-anchor="middle" x="909" y="-517.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">2018 RSA Cryptosuite</text>
+</a>
+</g>
+</g>
+<!-- 2018 RSA Cryptosuite&#45;&gt;LD Signatures 1.0 -->
+<g id="edge38" class="edge">
+<title>2018 RSA Cryptosuite-&gt;LD Signatures 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M837.2885,-535.6593C769.3009,-548.6094 667.8279,-567.9375 600.5585,-580.7508"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="599.6468,-577.3614 590.4783,-582.6708 600.9566,-584.2378 599.6468,-577.3614"></polygon>
+</g>
+<!-- 2018 RSA Cryptosuite&#45;&gt;JWS 1.0 -->
+<g id="edge39" class="edge">
+<title>2018 RSA Cryptosuite-&gt;JWS 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M913.9728,-540.0247C921.0026,-567.136 933,-620.1258 933,-666 933,-738 933,-738 933,-738 933,-837.2863 990,-854.7137 990,-954 990,-1026 990,-1026 990,-1026 990,-1107.2021 908.4951,-1091.7452 831,-1116 728.8948,-1147.9574 402.3808,-1163.7012 285.2902,-1168.4255"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="284.8029,-1164.942 274.9496,-1168.8359 285.0805,-1171.9365 284.8029,-1164.942"></polygon>
+</g>
+<!-- JWK 1.0 -->
+<g id="node35" class="node">
+<title>JWK 1.0</title>
+<g id="a_node35"><a xlink:href="https://tools.ietf.org/html/rfc7517" xlink:title="JWK 1.0">
+<path fill="#d3ffcc" stroke="#000000" d="M697.7662,-1188C697.7662,-1188 656.2338,-1188 656.2338,-1188 650.2338,-1188 644.2338,-1182 644.2338,-1176 644.2338,-1176 644.2338,-1164 644.2338,-1164 644.2338,-1158 650.2338,-1152 656.2338,-1152 656.2338,-1152 697.7662,-1152 697.7662,-1152 703.7662,-1152 709.7662,-1158 709.7662,-1164 709.7662,-1164 709.7662,-1176 709.7662,-1176 709.7662,-1182 703.7662,-1188 697.7662,-1188"></path>
+<text text-anchor="middle" x="677" y="-1165.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">JWK 1.0</text>
+</a>
+</g>
+</g>
+<!-- 2018 RSA Cryptosuite&#45;&gt;JWK 1.0 -->
+<g id="edge40" class="edge">
+<title>2018 RSA Cryptosuite-&gt;JWK 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M924.6902,-540.3816C932.454,-550.3431 941.3491,-563.2069 947,-576 952.2202,-587.8181 1028,-919.2482 1028,-954 1028,-1026 1028,-1026 1028,-1026 1028,-1067.3978 1034.6566,-1088.18 1004,-1116 963.0167,-1153.1911 798.9905,-1164.9801 719.9753,-1168.5429"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="719.7069,-1165.0511 709.8654,-1168.9746 720.0057,-1172.0447 719.7069,-1165.0511"></polygon>
+</g>
+<!-- 2018 Secp256k1 Cryptosuite -->
+<g id="node36" class="node">
+<title>2018 Secp256k1 Cryptosuite</title>
+<path fill="#f9a9a9" stroke="#000000" d="M473.0406,-540C473.0406,-540 318.9594,-540 318.9594,-540 312.9594,-540 306.9594,-534 306.9594,-528 306.9594,-528 306.9594,-516 306.9594,-516 306.9594,-510 312.9594,-504 318.9594,-504 318.9594,-504 473.0406,-504 473.0406,-504 479.0406,-504 485.0406,-510 485.0406,-516 485.0406,-516 485.0406,-528 485.0406,-528 485.0406,-534 479.0406,-540 473.0406,-540"></path>
+<text text-anchor="middle" x="396" y="-517.8" font-family="Times,serif" font-size="14.00" fill="#000000">2018 Secp256k1 Cryptosuite</text>
+</g>
+<!-- 2018 Secp256k1 Cryptosuite&#45;&gt;LD Signatures 1.0 -->
+<g id="edge41" class="edge">
+<title>2018 Secp256k1 Cryptosuite-&gt;LD Signatures 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M430.0553,-540.1628C447.6407,-549.5417 469.2788,-561.082 488.0052,-571.0694"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="486.4632,-574.2137 496.9338,-575.8314 489.7573,-568.0372 486.4632,-574.2137"></polygon>
+</g>
+<!-- 2018 Secp256k1 Cryptosuite&#45;&gt;JWS 1.0 -->
+<g id="edge42" class="edge">
+<title>2018 Secp256k1 Cryptosuite-&gt;JWS 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M321.4074,-540.0372C301.3514,-548.1027 281.2869,-559.6275 267,-576 239.7815,-607.1918 243,-624.6022 243,-666 243,-1026 243,-1026 243,-1026 243,-1066.124 243,-1112.5369 243,-1141.5823"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="239.5001,-1141.8146 243,-1151.8146 246.5001,-1141.8147 239.5001,-1141.8146"></polygon>
+</g>
+<!-- 2018 Secp256k1 Cryptosuite&#45;&gt;JWK 1.0 -->
+<g id="edge43" class="edge">
+<title>2018 Secp256k1 Cryptosuite-&gt;JWK 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M367.573,-540.1409C333.5182,-564.3473 281,-610.6505 281,-666 281,-1026 281,-1026 281,-1026 281,-1100.4385 531.2591,-1147.5285 633.8835,-1163.7094"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="633.4998,-1167.1917 643.9184,-1165.267 634.5736,-1160.2745 633.4998,-1167.1917"></polygon>
+</g>
+<!-- Credential Handler 1.0 -->
+<g id="node37" class="node">
+<title>Credential Handler 1.0</title>
+<g id="a_node37"><a xlink:href="https://w3c-ccg.github.io/credential-handler-api/" xlink:title="Credential Handler 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M978.8998,-468C978.8998,-468 859.1002,-468 859.1002,-468 853.1002,-468 847.1002,-462 847.1002,-456 847.1002,-456 847.1002,-444 847.1002,-444 847.1002,-438 853.1002,-432 859.1002,-432 859.1002,-432 978.8998,-432 978.8998,-432 984.8998,-432 990.8998,-438 990.8998,-444 990.8998,-444 990.8998,-456 990.8998,-456 990.8998,-462 984.8998,-468 978.8998,-468"></path>
+<text text-anchor="middle" x="919" y="-445.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">Credential Handler 1.0</text>
+</a>
+</g>
+</g>
+<!-- Credential Handler 1.0&#45;&gt;Verifiable Credentials 1.0 -->
+<g id="edge45" class="edge">
+<title>Credential Handler 1.0-&gt;Verifiable Credentials 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M954.9291,-468.0077C968.5172,-476.842 982.5017,-488.8765 990,-504 997.1072,-518.3348 991.0487,-524.0344 990,-540 977.306,-733.2476 1035.9723,-807.9802 933,-972 901.9275,-1021.494 843.495,-1055.6171 799.219,-1075.7457"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="797.7264,-1072.5788 790.0008,-1079.829 800.5615,-1078.979 797.7264,-1072.5788"></polygon>
+</g>
+<!-- WebAuthn DID Auth 1.0 -->
+<g id="node38" class="node">
+<title>WebAuthn DID Auth 1.0</title>
+<path fill="#f9a9a9" stroke="#000000" d="M1005.2977,-324C1005.2977,-324 870.7023,-324 870.7023,-324 864.7023,-324 858.7023,-318 858.7023,-312 858.7023,-312 858.7023,-300 858.7023,-300 858.7023,-294 864.7023,-288 870.7023,-288 870.7023,-288 1005.2977,-288 1005.2977,-288 1011.2977,-288 1017.2977,-294 1017.2977,-300 1017.2977,-300 1017.2977,-312 1017.2977,-312 1017.2977,-318 1011.2977,-324 1005.2977,-324"></path>
+<text text-anchor="middle" x="938" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">WebAuthn DID Auth 1.0</text>
+</g>
+<!-- WebAuthn DID Auth 1.0&#45;&gt;DID Resolution 1.0 -->
+<g id="edge47" class="edge">
+<title>WebAuthn DID Auth 1.0-&gt;DID Resolution 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M950.5062,-324.0089C984.6641,-373.1963 1079.6585,-509.9882 1119.7625,-567.738"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1116.9103,-569.767 1125.4891,-575.9843 1122.6599,-565.7742 1116.9103,-569.767"></polygon>
+</g>
+<!-- WebAuthn DID Auth 1.0&#45;&gt;Credential Handler 1.0 -->
+<g id="edge46" class="edge">
+<title>WebAuthn DID Auth 1.0-&gt;Credential Handler 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M935.6132,-324.0896C932.3828,-348.5727 926.5845,-392.5174 922.7642,-421.4713"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="919.2446,-421.3904 921.4064,-431.7623 926.1845,-422.3061 919.2446,-421.3904"></polygon>
+</g>
+<!-- BTCR DID Method 1.0 -->
+<g id="node39" class="node">
+<title>BTCR DID Method 1.0</title>
+<g id="a_node39"><a xlink:href="https://docs.google.com/document/d/15HWtXTDXcvyUjgAqnewPoZKbgSWhl-XiIDas1ip94Hs/edit" xlink:title="BTCR DID Method 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M1290.486,-396C1290.486,-396 1165.514,-396 1165.514,-396 1159.514,-396 1153.514,-390 1153.514,-384 1153.514,-384 1153.514,-372 1153.514,-372 1153.514,-366 1159.514,-360 1165.514,-360 1165.514,-360 1290.486,-360 1290.486,-360 1296.486,-360 1302.486,-366 1302.486,-372 1302.486,-372 1302.486,-384 1302.486,-384 1302.486,-390 1296.486,-396 1290.486,-396"></path>
+<text text-anchor="middle" x="1228" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">BTCR DID Method 1.0</text>
+</a>
+</g>
+</g>
+<!-- BTCR DID Method 1.0&#45;&gt;Decentralized Identifiers 1.0 -->
+<g id="edge48" class="edge">
+<title>BTCR DID Method 1.0-&gt;Decentralized Identifiers 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1228.2072,-396.1851C1228.5001,-423.5011 1229,-476.7489 1229,-522 1229,-666 1229,-666 1229,-666 1229,-729.0828 1295.5481,-767.4206 1351.4827,-788.5027"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1350.4748,-791.8604 1361.0689,-791.9898 1352.8678,-785.2821 1350.4748,-791.8604"></polygon>
+</g>
+<!-- Ethr DID Method 1.0 -->
+<g id="node40" class="node">
+<title>Ethr DID Method 1.0</title>
+<g id="a_node40"><a xlink:href="https://github.com/uport-project/ethr-did" xlink:title="Ethr DID Method 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M1445.0282,-396C1445.0282,-396 1332.9718,-396 1332.9718,-396 1326.9718,-396 1320.9718,-390 1320.9718,-384 1320.9718,-384 1320.9718,-372 1320.9718,-372 1320.9718,-366 1326.9718,-360 1332.9718,-360 1332.9718,-360 1445.0282,-360 1445.0282,-360 1451.0282,-360 1457.0282,-366 1457.0282,-372 1457.0282,-372 1457.0282,-384 1457.0282,-384 1457.0282,-390 1451.0282,-396 1445.0282,-396"></path>
+<text text-anchor="middle" x="1389" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">Ethr DID Method 1.0</text>
+</a>
+</g>
+</g>
+<!-- Ethr DID Method 1.0&#45;&gt;Decentralized Identifiers 1.0 -->
+<g id="edge49" class="edge">
+<title>Ethr DID Method 1.0-&gt;Decentralized Identifiers 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1389,-396.1854C1389,-423.5017 1389,-476.75 1389,-522 1389,-666 1389,-666 1389,-666 1389,-707.6319 1404.0328,-753.86 1415.1881,-782.433"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1411.9632,-783.7945 1418.9412,-791.7668 1418.4578,-781.183 1411.9632,-783.7945"></polygon>
+</g>
+<!-- Sovrin DID Method 1.0 -->
+<g id="node41" class="node">
+<title>Sovrin DID Method 1.0</title>
+<g id="a_node41"><a xlink:href="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/topics-and-advance-readings/sovrin-did-method-spec-pointer.md" xlink:title="Sovrin DID Method 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M1612.7576,-396C1612.7576,-396 1487.2424,-396 1487.2424,-396 1481.2424,-396 1475.2424,-390 1475.2424,-384 1475.2424,-384 1475.2424,-372 1475.2424,-372 1475.2424,-366 1481.2424,-360 1487.2424,-360 1487.2424,-360 1612.7576,-360 1612.7576,-360 1618.7576,-360 1624.7576,-366 1624.7576,-372 1624.7576,-372 1624.7576,-384 1624.7576,-384 1624.7576,-390 1618.7576,-396 1612.7576,-396"></path>
+<text text-anchor="middle" x="1550" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">Sovrin DID Method 1.0</text>
+</a>
+</g>
+</g>
+<!-- Sovrin DID Method 1.0&#45;&gt;Decentralized Identifiers 1.0 -->
+<g id="edge50" class="edge">
+<title>Sovrin DID Method 1.0-&gt;Decentralized Identifiers 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1499.0205,-396.0671C1481.5613,-404.5362 1463.3386,-416.2982 1451,-432 1425.4217,-464.5504 1427,-480.6022 1427,-522 1427,-666 1427,-666 1427,-666 1427,-706.124 1427,-752.5369 1427,-781.5823"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1423.5001,-781.8146 1427,-791.8146 1430.5001,-781.8147 1423.5001,-781.8146"></polygon>
+</g>
+<!-- Veres One DID Method 1.0 -->
+<g id="node42" class="node">
+<title>Veres One DID Method 1.0</title>
+<g id="a_node42"><a xlink:href="https://w3c-ccg.github.io/didm-veres-one/" xlink:title="Veres One DID Method 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M1802.8858,-396C1802.8858,-396 1655.1142,-396 1655.1142,-396 1649.1142,-396 1643.1142,-390 1643.1142,-384 1643.1142,-384 1643.1142,-372 1643.1142,-372 1643.1142,-366 1649.1142,-360 1655.1142,-360 1655.1142,-360 1802.8858,-360 1802.8858,-360 1808.8858,-360 1814.8858,-366 1814.8858,-372 1814.8858,-372 1814.8858,-384 1814.8858,-384 1814.8858,-390 1808.8858,-396 1802.8858,-396"></path>
+<text text-anchor="middle" x="1729" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">Veres One DID Method 1.0</text>
+</a>
+</g>
+</g>
+<!-- Veres One DID Method 1.0&#45;&gt;Decentralized Identifiers 1.0 -->
+<g id="edge51" class="edge">
+<title>Veres One DID Method 1.0-&gt;Decentralized Identifiers 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1673.335,-396.0035C1595.8804,-422.7651 1465,-474.9474 1465,-522 1465,-666 1465,-666 1465,-666 1465,-707.6319 1449.9672,-753.86 1438.8119,-782.433"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1435.5422,-781.183 1435.0588,-791.7668 1442.0368,-783.7945 1435.5422,-781.183"></polygon>
+</g>
+<!-- Web Ledger 1.0 -->
+<g id="node43" class="node">
+<title>Web Ledger 1.0</title>
+<g id="a_node43"><a xlink:href="https://w3c.github.io/web-ledger/" xlink:title="Web Ledger 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M1770.0725,-468C1770.0725,-468 1687.9275,-468 1687.9275,-468 1681.9275,-468 1675.9275,-462 1675.9275,-456 1675.9275,-456 1675.9275,-444 1675.9275,-444 1675.9275,-438 1681.9275,-432 1687.9275,-432 1687.9275,-432 1770.0725,-432 1770.0725,-432 1776.0725,-432 1782.0725,-438 1782.0725,-444 1782.0725,-444 1782.0725,-456 1782.0725,-456 1782.0725,-462 1776.0725,-468 1770.0725,-468"></path>
+<text text-anchor="middle" x="1729" y="-445.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">Web Ledger 1.0</text>
+</a>
+</g>
+</g>
+<!-- Veres One DID Method 1.0&#45;&gt;Web Ledger 1.0 -->
+<g id="edge52" class="edge">
+<title>Veres One DID Method 1.0-&gt;Web Ledger 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1729,-396.4133C1729,-404.0593 1729,-413.1084 1729,-421.5726"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1725.5001,-421.8313 1729,-431.8314 1732.5001,-421.8314 1725.5001,-421.8313"></polygon>
+</g>
+<!-- DKMS 1.0 -->
+<g id="node44" class="node">
+<title>DKMS 1.0</title>
+<g id="a_node44"><a xlink:href="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2017/blob/master/topics-and-advance-readings/dkms-decentralized-key-mgmt-system.md" xlink:title="DKMS 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M1576.9417,-324C1576.9417,-324 1523.0583,-324 1523.0583,-324 1517.0583,-324 1511.0583,-318 1511.0583,-312 1511.0583,-312 1511.0583,-300 1511.0583,-300 1511.0583,-294 1517.0583,-288 1523.0583,-288 1523.0583,-288 1576.9417,-288 1576.9417,-288 1582.9417,-288 1588.9417,-294 1588.9417,-300 1588.9417,-300 1588.9417,-312 1588.9417,-312 1588.9417,-318 1582.9417,-324 1576.9417,-324"></path>
+<text text-anchor="middle" x="1550" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">DKMS 1.0</text>
+</a>
+</g>
+</g>
+<!-- DKMS 1.0&#45;&gt;Sovrin DID Method 1.0 -->
+<g id="edge53" class="edge">
+<title>DKMS 1.0-&gt;Sovrin DID Method 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1550,-324.4133C1550,-332.0593 1550,-341.1084 1550,-349.5726"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1546.5001,-349.8313 1550,-359.8314 1553.5001,-349.8314 1546.5001,-349.8313"></polygon>
+</g>
+<!-- HTTP OCAP Auth 1.0 -->
+<g id="node45" class="node">
+<title>HTTP OCAP Auth 1.0</title>
+<path fill="#f9a9a9" stroke="#000000" d="M839.3244,-180C839.3244,-180 718.6756,-180 718.6756,-180 712.6756,-180 706.6756,-174 706.6756,-168 706.6756,-168 706.6756,-156 706.6756,-156 706.6756,-150 712.6756,-144 718.6756,-144 718.6756,-144 839.3244,-144 839.3244,-144 845.3244,-144 851.3244,-150 851.3244,-156 851.3244,-156 851.3244,-168 851.3244,-168 851.3244,-174 845.3244,-180 839.3244,-180"></path>
+<text text-anchor="middle" x="779" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">HTTP OCAP Auth 1.0</text>
+</g>
+<!-- HTTP OCAP Auth 1.0&#45;&gt;HTTP Signatures 1.0 -->
+<g id="edge54" class="edge">
+<title>HTTP OCAP Auth 1.0-&gt;HTTP Signatures 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M839.3219,-180.0426C921.0839,-206.3331 1057,-257.3528 1057,-306 1057,-378 1057,-378 1057,-378 1057,-474.1028 1047,-497.8972 1047,-594 1047,-666 1047,-666 1047,-666 1047,-731.7288 1118.2021,-769.8908 1177.0875,-790.2126"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1176.1995,-793.6057 1186.793,-793.4423 1178.4097,-786.9638 1176.1995,-793.6057"></polygon>
+</g>
+<!-- OCAP&#45;LD 1.0 -->
+<g id="node46" class="node">
+<title>OCAP-LD 1.0</title>
+<g id="a_node46"><a xlink:href="https://w3c-ccg.github.io/ocap-ld/" xlink:title="OCAP-LD 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M954.6528,-180C954.6528,-180 881.3472,-180 881.3472,-180 875.3472,-180 869.3472,-174 869.3472,-168 869.3472,-168 869.3472,-156 869.3472,-156 869.3472,-150 875.3472,-144 881.3472,-144 881.3472,-144 954.6528,-144 954.6528,-144 960.6528,-144 966.6528,-150 966.6528,-156 966.6528,-156 966.6528,-168 966.6528,-168 966.6528,-174 960.6528,-180 954.6528,-180"></path>
+<text text-anchor="middle" x="918" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">OCAP-LD 1.0</text>
+</a>
+</g>
+</g>
+<!-- HTTP OCAP Auth 1.0&#45;&gt;OCAP&#45;LD 1.0 -->
+<g id="edge55" class="edge">
+<title>HTTP OCAP Auth 1.0-&gt;OCAP-LD 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M851.2148,-162C853.8399,-162 856.465,-162 859.0901,-162"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="859.2156,-165.5001 869.2155,-162 859.2155,-158.5001 859.2156,-165.5001"></polygon>
+</g>
+<!-- OCAP&#45;LD 1.0&#45;&gt;LD Signatures 1.0 -->
+<g id="edge56" class="edge">
+<title>OCAP-LD 1.0-&gt;LD Signatures 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M888.2782,-180.1102C853.0313,-204.1223 799,-250.0551 799,-306 799,-450 799,-450 799,-450 799,-540.288 679.5085,-574.2043 600.1017,-586.775"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="599.5132,-583.324 590.1455,-588.2735 600.5551,-590.2461 599.5132,-583.324"></polygon>
+</g>
+<!-- Hubs 1.0 -->
+<g id="node47" class="node">
+<title>Hubs 1.0</title>
+<g id="a_node47"><a xlink:href="https://github.com/decentralized-identity/hubs/blob/master/explainer.md" xlink:title="Hubs 1.0">
+<path fill="#f9a9a9" stroke="#000000" d="M1147.0527,-180C1147.0527,-180 1104.9473,-180 1104.9473,-180 1098.9473,-180 1092.9473,-174 1092.9473,-168 1092.9473,-168 1092.9473,-156 1092.9473,-156 1092.9473,-150 1098.9473,-144 1104.9473,-144 1104.9473,-144 1147.0527,-144 1147.0527,-144 1153.0527,-144 1159.0527,-150 1159.0527,-156 1159.0527,-156 1159.0527,-168 1159.0527,-168 1159.0527,-174 1153.0527,-180 1147.0527,-180"></path>
+<text text-anchor="middle" x="1126" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#0000ff">Hubs 1.0</text>
+</a>
+</g>
+</g>
+<!-- Hubs 1.0&#45;&gt;DID Resolution 1.0 -->
+<g id="edge57" class="edge">
+<title>Hubs 1.0-&gt;DID Resolution 1.0</title>
+<path fill="none" stroke="#6e7b8b" d="M1126,-180.1854C1126,-207.5017 1126,-260.75 1126,-306 1126,-450 1126,-450 1126,-450 1126,-490.2631 1130.7166,-536.6406 1134.2358,-565.6404"></path>
+<polygon fill="#6e7b8b" stroke="#6e7b8b" points="1130.7993,-566.3668 1135.5136,-575.855 1137.7452,-565.4979 1130.7993,-566.3668"></polygon>
+</g>
+</g>
+</svg>
