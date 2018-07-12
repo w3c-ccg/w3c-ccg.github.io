@@ -15,6 +15,8 @@ digraph {
   node [shape="box" style="rounded"]
   ranksep = 1
 
+  edge [color="lightsteelblue4"]
+
   {
     node [shape=plaintext, fontsize=20];
     past -> 2018 [weight=50]
@@ -25,8 +27,6 @@ digraph {
     2022 -> future [weight=50]
   }
 
-  edge [color="lightsteelblue4"]
- 
   subgraph cluster_2018 {
     rankdir = LR
     "Verifiable Credentials 1.0" -> "JSON-LD 1.1"
