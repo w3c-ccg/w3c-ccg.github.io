@@ -1,0 +1,322 @@
+digraph {
+  node [shape="box" style="rounded,filled"]
+  edge [color="lightsteelblue4"]
+
+  {
+    node [shape=plaintext, fontsize=20];
+
+    past -> "2018a" [style=invis]
+
+    "2018a" -> "2018" [style=invis]
+    "2018" -> "2018b" [style=invis]
+    "2018b" -> "2019a" [style=invis]
+
+    "2019a" -> "2019" [style=invis]
+    "2019" -> "2019b" [style=invis]
+    "2019b" -> "2020a" [style=invis]
+
+    "2020a" -> "2020" [style=invis]
+    "2020" -> "2020b" [style=invis]
+    "2020b" -> "2021a" [style=invis]
+
+    "2021a" -> "2021" [style=invis]
+    "2021" -> "2021b" [style=invis]
+    "2021b" -> "2022a" [style=invis]
+
+    "2022a" -> "2022" [style=invis]
+    "2022" -> "2022b" [style=invis]
+    "2022b" -> "future" [style=invis]
+
+    "past" -> "2018" [weight=50]
+    "2018" -> "2019" [weight=50]
+    "2019" -> "2020" [weight=50]
+    "2020" -> "2021" [weight=50]
+    "2021" -> "2022" [weight=50]
+    "2022" -> "future" [weight=50]
+
+    "2018a" [style=invis]
+    "2018b" [style=invis]
+    "2019a" [style=invis]
+    "2019b" [style=invis]
+    "2020a" [style=invis]
+    "2020b" [style=invis]
+    "2021a" [style=invis]
+    "2021b" [style=invis]
+    "2022a" [style=invis]
+    "2022b" [style=invis]
+  }
+
+  subgraph cluster_2018 {
+    "Verifiable Credentials 1.0" -> "JSON-LD 1.1"
+    "Verifiable Credentials 1.0" -> "LD Signatures 1.0"
+    "2018 Credential Status List" -> "Verifiable Credentials 1.0"
+    "2018 Credential Status Blockchain" -> "Verifiable Credentials 1.0"
+    "2018 Credential Evidence" -> "Verifiable Credentials 1.0"
+  }
+
+  subgraph cluster_2019 {
+    "Decentralized Identifiers 1.0" -> "JSON-LD 1.1"
+    "HTTP DID Auth 1.0" -> "HTTP Signatures 1.0"
+    "HTTP DID Auth 1.0" -> "DID Resolution 1.0"
+  }
+
+  subgraph cluster_2020 {
+    "LD Proofs 1.0" -> "JSON-LD 1.1"
+    "LD Signatures 1.0" -> "LD Proofs 1.0"
+    "LD Signatures 1.0" -> "RDF Dataset Normalization 1.0"
+    "2018 Equihash Cryptosuite" -> "LD Proofs 1.0"
+    "2018 Message Digest Cryptosuite" -> "LD Proofs 1.0"
+    "2018 Ed25519 Cryptosuite" -> "LD Signatures 1.0", "JWS 1.0"
+    "2018 RSA Cryptosuite" -> "LD Signatures 1.0", "JWS 1.0", "JWK 1.0"
+    "2018 Secp256k1 Cryptosuite" -> "LD Signatures 1.0", "JWS 1.0", "JWK 1.0"
+    "DID Resolution 1.0" -> "Decentralized Identifiers 1.0"
+  }
+
+  subgraph cluster_2021 {
+    "Credential Handler 1.0" -> "Verifiable Credentials 1.0"
+    "WebAuthn DID Auth 1.0" -> "Credential Handler 1.0"
+    "WebAuthn DID Auth 1.0" -> "DID Resolution 1.0"
+    "BTCR DID Method 1.0" -> "Decentralized Identifiers 1.0"
+    "Ethr DID Method 1.0" -> "Decentralized Identifiers 1.0"
+    "Sovrin DID Method 1.0" -> "Decentralized Identifiers 1.0"
+    "Veres One DID Method 1.0" -> "Decentralized Identifiers 1.0"
+    "Veres One DID Method 1.0" -> "Web Ledger 1.0"
+    "DKMS 1.0" -> "Sovrin DID Method 1.0"
+  }
+
+  subgraph cluster_2022 {
+    "HTTP OCAP Auth 1.0" -> "HTTP Signatures 1.0"
+    "HTTP OCAP Auth 1.0" -> "OCAP-LD 1.0"
+    "OCAP-LD 1.0" -> "LD Signatures 1.0"
+    "Hubs 1.0" -> "DID Resolution 1.0"
+  }
+
+  { rank=same "past";
+    "JWS 1.0";
+    "JWK 1.0";
+  }
+
+  { rank=same "2018a";
+    "JSON-LD 1.1";
+    "Verifiable Credentials 1.0";
+  }
+
+  { rank=same "2018b";
+    "2018 Credential Status List";
+    "2018 Credential Status Blockchain";
+    "2018 Credential Evidence";
+  }
+
+  { rank=same "2019";
+    "HTTP Signatures 1.0";
+    "Decentralized Identifiers 1.0";
+    "HTTP DID Auth 1.0";
+  }
+
+  { rank=same "2020a";
+    "RDF Dataset Normalization 1.0";
+  }
+
+  { rank=same "2020";
+    "LD Proofs 1.0";
+    "LD Signatures 1.0";
+    "DID Resolution 1.0";
+  }
+  { rank=same "2020b";
+    "2018 Equihash Cryptosuite";
+    "2018 Message Digest Cryptosuite";
+    "2018 Ed25519 Cryptosuite";
+    "2018 RSA Cryptosuite";
+    "2018 Secp256k1 Cryptosuite";
+  }
+
+  { rank=same "2021a";
+    "Credential Handler 1.0";
+    "Web Ledger 1.0";
+  }
+
+  { rank=same "2021";
+    "BTCR DID Method 1.0";
+    "Ethr DID Method 1.0";
+    "Sovrin DID Method 1.0";
+    "Veres One DID Method 1.0";
+    "Veres One DID Method 1.0";
+  }
+
+  { rank=same "2021b";
+    "WebAuthn DID Auth 1.0";
+    "DKMS 1.0";
+  }
+
+  { rank=same "2022";
+    "OCAP-LD 1.0";
+    "HTTP OCAP Auth 1.0"
+    "Hubs 1.0"
+  }
+
+  "JWS 1.0" [
+    URL="https://tools.ietf.org/html/rfc7515",
+    fontcolor="blue",
+    fillcolor="#d3ffcc"
+  ]
+
+  "JWK 1.0" [
+    URL="https://tools.ietf.org/html/rfc7517",
+    fontcolor="blue",
+    fillcolor="#d3ffcc"
+  ]
+
+  "JSON-LD 1.1" [
+    URL="https://json-ld.org/spec/latest/json-ld/",
+    fontcolor="blue",
+    fillcolor="#cce2ff"
+  ]
+
+  "Verifiable Credentials 1.0" [
+    URL="https://w3c.github.io/vc-data-model/",
+    fontcolor="blue",
+    fillcolor="#cce2ff"
+  ]
+
+  "2018 Credential Status List" [
+    URL="https://w3c-ccg.github.io/vc-csl2017/",
+    fontcolor="blue",
+    fillcolor="#f3ccff"
+  ]
+
+  "HTTP Signatures 1.0" [
+    URL="https://tools.ietf.org/html/draft-cavage-http-signatures",
+    fontcolor="blue",
+    fillcolor="#cce2ff"
+  ]
+
+  "Decentralized Identifiers 1.0" [
+    URL="https://w3c-ccg.github.io/did-spec/",
+    fontcolor="blue",
+    fillcolor="#f3ccff"
+  ]
+
+  "HTTP DID Auth 1.0" [
+    URL="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/topics-and-advance-readings/DID%20Auth:%20Scope%2C%20Formats%2C%20and%20Protocols.md",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "LD Proofs 1.0" [
+    URL="https://w3c-dvcg.github.io/ld-proofs/",
+    fontcolor="blue",
+    fillcolor="#cce2ff"
+  ]
+
+  "LD Signatures 1.0" [
+    URL="https://w3c-dvcg.github.io/ld-signatures/",
+    fontcolor="blue",
+    fillcolor="#cce2ff"
+  ]
+
+  "RDF Dataset Normalization 1.0" [
+    URL="https://json-ld.github.io/normalization/spec/",
+    fontcolor="blue",
+    fillcolor="#cce2ff"
+  ]
+
+  "2018 RSA Cryptosuite" [
+    URL="https://w3c-dvcg.github.io/lds-rsa2018/",
+    fontcolor="blue",
+    fillcolor="#cce2ff"
+  ]
+
+  "DID Resolution 1.0" [
+    URL="https://w3c-ccg.github.io/did-resolution/",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "Credential Handler 1.0" [
+    URL="https://w3c-ccg.github.io/credential-handler-api/",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "BTCR DID Method 1.0" [
+    URL="https://docs.google.com/document/d/15HWtXTDXcvyUjgAqnewPoZKbgSWhl-XiIDas1ip94Hs/edit",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "Ethr DID Method 1.0" [
+    URL="https://github.com/uport-project/ethr-did",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "Sovrin DID Method 1.0" [
+    URL="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/topics-and-advance-readings/sovrin-did-method-spec-pointer.md",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "DKMS 1.0" [
+    URL="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2017/blob/master/topics-and-advance-readings/dkms-decentralized-key-mgmt-system.md",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "Veres One DID Method 1.0" [
+    URL="https://w3c-ccg.github.io/didm-veres-one/",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "Web Ledger 1.0" [
+    URL="https://w3c.github.io/web-ledger/",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "OCAP-LD 1.0" [
+    URL="https://w3c-ccg.github.io/ocap-ld/",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+
+  "2018 Credential Status Blockchain" [
+    fillcolor="#f9a9a9"
+  ]
+
+  "2018 Credential Evidence" [
+    fillcolor="#f9a9a9"
+  ]
+
+  "WebAuthn DID Auth 1.0" [
+    fillcolor="#f9a9a9"
+  ]
+
+  "HTTP OCAP Auth 1.0" [
+    fillcolor="#f9a9a9"
+  ]
+
+  "2018 Ed25519 Cryptosuite" [
+    URL="https://w3c-dvcg.github.io/lds-ed25519-2018/",
+    fontcolor="blue",
+    fillcolor="#cce2ff"
+  ]
+
+  "2018 Message Digest Cryptosuite" [
+    fillcolor="#f9a9a9"
+  ]
+
+  "2018 Equihash Cryptosuite" [
+    fillcolor="#f9a9a9"
+  ]
+
+  "2018 Secp256k1 Cryptosuite" [
+    fillcolor="#f9a9a9"
+  ]
+
+  "Hubs 1.0" [
+    URL="https://github.com/decentralized-identity/hubs/blob/master/explainer.md",
+    fontcolor="blue",
+    fillcolor="#f9a9a9"
+  ]
+}
