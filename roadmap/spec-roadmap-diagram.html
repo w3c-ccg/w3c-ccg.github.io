@@ -14,12 +14,19 @@
 digraph {
   node [shape="box" style="rounded"]
   ranksep = 1
-  rankdir = TB
-  rank = same
+
+  {
+    node [shape=plaintext, fontsize=20];
+    past -> 2018 [weight=50]
+    2018 -> 2019 [weight=50]
+    2019 -> 2020 [weight=50]
+    2020 -> 2021 [weight=50]
+    2021 -> 2022 [weight=50]
+    2022 -> future [weight=50]
+  }
 
   subgraph cluster_2018 {
-    label = "2018 Working Group Ready Specs"
-    "2018"
+    rankdir = LR
     "Verifiable Credentials 1.0" -> "JSON-LD 1.1"
     "2018 Credential Status List" -> "Verifiable Credentials 1.0"
     "2018 Credential Status Blockchain" -> "Verifiable Credentials 1.0"
@@ -27,16 +34,13 @@ digraph {
   }
 
   subgraph cluster_2019 {
-    label = "2019 Working Group Ready Specs"
-    labelloc = b
-    "2019"
+    rankdir = LR
     "Decentralized Identifiers 1.0" -> "JSON-LD 1.1"
     "HTTP DID Auth 1.0" -> "HTTP Signatures 1.0"
   }
 
   subgraph cluster_2020 {
-    label = "2020 Working Group Ready Specs"
-    "2020"
+    rankdir = LR
     "LD Proofs 1.0" -> "JSON-LD 1.1"
     "LD Signatures 1.0" -> "LD Proofs 1.0"
     "LD Signatures 1.0" -> "RDF Dataset Normalization 1.0"
@@ -49,8 +53,7 @@ digraph {
   }
 
   subgraph cluster_2021 {
-    label = "2021 Working Group Ready Specs"
-    "2021"
+    rankdir = LR
     "Credential Handler 1.0" -> "Verifiable Credentials 1.0"
     "WebAuthn DID Auth 1.0" -> "Credential Handler 1.0"
     "BTCR DID Method 1.0" -> "Decentralized Identifiers 1.0"
@@ -62,14 +65,18 @@ digraph {
   }
 
   subgraph cluster_2022 {
-    label = "2022 Working Group Ready Specs"
-    "2022"
+    rankdir = LR
     "HTTP OCAP Auth 1.0" -> "HTTP Signatures 1.0"
     "HTTP OCAP Auth 1.0" -> "OCAP-LD 1.0"
     "OCAP-LD 1.0" -> "LD Signatures 1.0"
   }
 
-  "2018" -> "2019" -> "2020" -> "2021" -> "2022"
+  { rank=same past; "JWS 1.0"; "JWK 1.0" }
+  { rank=same 2018; "JSON-LD 1.1"; "Verifiable Credentials 1.0"; "2018 Credential Status List"; "2018 Credential Status Blockchain"; "2018 Credential Evidence"; }
+  { rank=same 2019; "HTTP Signatures 1.0"; "Decentralized Identifiers 1.0"; "HTTP DID Auth 1.0" }
+  { rank=same 2020; "LD Proofs 1.0"; "LD Signatures 1.0"; "RDF Dataset Normalization 1.0"; "2018 Equihash Cryptosuite"; "2018 Message Digest Cryptosuite"; "2018 Ed25519 Cryptosuite"; "2018 RSA Cryptosuite"; "2018 Secp256k1 Cryptosuite"; "DID Resolution 1.0" }
+  { rank=same 2021; "Credential Handler 1.0"; "WebAuthn DID Auth 1.0"; "BTCR DID Method 1.0"; "Ethr DID Method 1.0"; "Sovrin DID Method 1.0"; "DKMS 1.0"; "Veres One DID Method 1.0"; "Veres One DID Method 1.0"; "Web Ledger 1.0" }
+  { rank=same 2022; "OCAP-LD 1.0"; "HTTP OCAP Auth 1.0" }
 
 }
   `;
