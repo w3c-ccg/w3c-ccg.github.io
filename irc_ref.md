@@ -4,7 +4,7 @@
 People that are participating in the meeting will find these commands useful:
 
 * voip: ```<last 3 digits of SIP/...>``` is ```<alias>``` - Associate a voice channel with an IRC nickname. [Details](#associate-a-voice-channel-with-an-irc-nickname)
-* /me ```TEXT``` - Say something off of the record. Everything else you type is recorded in the official transcript. [Details](#speaking-off-the-record)
+* /me ```TEXT``` - Say something off of the record. Everything else you type is recorded in the official transcript. [Details](#say-something-off-the-record)
 * q? - See who is on the speaker queue.
 * q+ - Add yourself to the speaker queue.
 * q+ to say ```TEXT``` - Add yourself to the speaker queue while including a reminder to yourself on what you want to say.
@@ -56,7 +56,7 @@ The last 3 digits are `174`. You would enter command:
 voip: 174 is kimhd
 ```
 
-### Speaking off the record
+### Say something off the record
 
 #### Command
 
