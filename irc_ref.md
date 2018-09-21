@@ -3,7 +3,7 @@
 ## Reference for call participants
 People that are participating in the meeting will find these commands useful:
 
-* voip: ```<last 3 digits of SIP/...>``` is ```<alias>``` - Associate a voice channel with an IRC nickname. [Details](#associate-your-phone-number-with-an-irc-nickname)
+* voip: ```<last 3 digits of SIP/...>``` is ```<alias>``` - Associate a voice channel with an IRC nickname. [Details](#associate-a-voice-channel-with-an-irc-nickname)
 * /me ```TEXT``` - Say something off of the record. Everything else you type is recorded in the official transcript. [Details](#speaking-off-the-record)
 * q? - See who is on the speaker queue.
 * q+ - Add yourself to the speaker queue.
@@ -34,7 +34,7 @@ People that are running the meeting may find these commands useful:
 
 ## IRC Command Details
 
-### Associate your phone number an IRC nickname
+### Associate a voice channel with an IRC nickname
 
 #### Command
 
