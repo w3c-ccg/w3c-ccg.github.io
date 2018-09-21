@@ -3,8 +3,8 @@
 ## Reference for call participants
 People that are participating in the meeting will find these commands useful:
 
-* voip: number? - Get the dial in numbers for the call.
-* /me ```TEXT``` - Say something off of the record. Everything else you type is recorded in the official transcript.
+* voip: ```<last 3 digits of SIP/...>``` is ```<alias>``` - Associate a voice channel with an IRC nickname. [Details](#associate-your-phone-number-with-an-irc-nickname)
+* /me ```TEXT``` - Say something off of the record. Everything else you type is recorded in the official transcript. [Details](#speaking-off-the-record)
 * q? - See who is on the speaker queue.
 * q+ - Add yourself to the speaker queue.
 * q+ to say ```TEXT``` - Add yourself to the speaker queue while including a reminder to yourself on what you want to say.
@@ -17,10 +17,12 @@ People that are participating in the meeting will find these commands useful:
 
 People that are running the meeting may find these commands useful:
 
-* agenda: ```<URL>``` - Specify the link for the meeting agenda.
-* scribe: ```<alias>``` - Specify the IRC nickcname of the person that is scribing.
+* agenda: ```<URL>``` - Specify the link for the meeting agenda. [Details](#posting-an-agenda)
+* scribe: ```<alias>``` - Specify the IRC nickcname of the person that is scribing. 
+* ```<alias> <TEXT>``` - (For scribe) Record what alias said [Details](#scribing)
 * topic: ```TEXT``` - Set the current topic of discussion.
-* voip: ```<last 3 digits of SIP/...>``` is ```<alias>``` - Associate a voice channel with an IRC nickname.
+* voip: number? - Get the dial in numbers for the call. (TODO: is this right? I thought it was connections? )
+* voip: connections? - Get the dial in numbers for the call. [Details](#list-connections)
 * voip: noisy? - See which audio channels are being noisy. Useful for finding distracting audio from participants.
 * voip: mute ```<last 3 digits of SIP/...>``` - Mute an audio channel.
 * voip: unmute ```<last 3 digits of SIP/...>``` - Unmute an audio channel.
@@ -32,7 +34,7 @@ People that are running the meeting may find these commands useful:
 
 ## IRC Command Details
 
-### Associate your phone number with your alias
+### Associate your phone number an IRC nickname
 
 #### Command
 
@@ -68,6 +70,20 @@ voip: 174 is kimhd
 /me can you speak up please?
 ```
 
+### Posting an agenda
+
+#### Command
+
+```
+Agenda: <agenda link>
+```
+
+#### Example
+
+```
+Agenda: https://lists.w3.org/Archives/Public/public-credentials/2017Jul/0040.html
+```
+
 ### List connections
 
 #### Command
@@ -95,19 +111,7 @@ kimhd: The next thing we will discuss is the DID spec
 
 To continue, and avoid repeating the author name, type `...` (on the new line)
 
-### Posting an agenda
 
-#### Command
-
-```
-Agenda: <agenda link>
-```
-
-#### Example
-
-```
-Agenda: https://lists.w3.org/Archives/Public/public-credentials/2017Jul/0040.html
-```
 
 # Publishing the Minutes
 
