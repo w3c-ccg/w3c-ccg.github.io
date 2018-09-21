@@ -1,5 +1,6 @@
 # IRC Commands Reference
 
+## Reference for call participants
 People that are participating in the meeting will find these commands useful:
 
 * voip: number? - Get the dial in numbers for the call.
@@ -10,6 +11,9 @@ People that are participating in the meeting will find these commands useful:
 * q+ ```<alias>``` - Add someone else to the speaker queue.
 * q- ```<alias>``` - Remove someone from the speaker queue.
 * ack ```<alias>``` - Acknowledge someone to speak from the speaker queue.
+
+
+## Reference for people running the meeting and scribes
 
 People that are running the meeting may find these commands useful:
 
@@ -26,15 +30,17 @@ People that are running the meeting may find these commands useful:
 * date: ```<YYYY-MM-dd>``` - Specify the date of the meeting. Useful when creating minutes after the fact.
 * action: ```<TEXT>``` - Add an action item
 
-## Associate your phone number with your alias
+## IRC Command Details
 
-### Command
+### Associate your phone number with your alias
+
+#### Command
 
 ```
 voip: <last 3 digits of SIP/...> is <alias>
 ```
 
-### Example
+#### Example
 
 Suppose your alias is `kimhd` and phone number is 555-222-1212. Look for your phone number in the chat window and get the last 3 digits from the adjacent string `[SIP/xx.xx.xx.xxx-xxxxxxxx]`
 
@@ -48,37 +54,37 @@ The last 3 digits are `174`. You would enter command:
 voip: 174 is kimhd
 ```
 
-## Speaking off the record
+### Speaking off the record
 
-### Command
+#### Command
 
 ```
 /me <your message>
 ```
 
-### Example
+#### Example
 
 ```
 /me can you speak up please?
 ```
 
-## List connections
+### List connections
 
-### Command
+#### Command
 
 ```
 voip: connections?
 ```
 
-## Scribing
+### Scribing
 
-### Command
+#### Command
 
 ```
 <alias>: <what they said>
 ```
 
-### Example
+#### Example
 
 Suppose ChristopherA is scribing, and kimhd says "The next thing we will discuss is the DID spec"
 
@@ -89,15 +95,15 @@ kimhd: The next thing we will discuss is the DID spec
 
 To continue, and avoid repeating the author name, type `...` (on the new line)
 
-## Posting an agenda
+### Posting an agenda
 
-### Command
+#### Command
 
 ```
 Agenda: <agenda link>
 ```
 
-### Example
+#### Example
 
 ```
 Agenda: https://lists.w3.org/Archives/Public/public-credentials/2017Jul/0040.html
