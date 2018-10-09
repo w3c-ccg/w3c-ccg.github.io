@@ -12,7 +12,6 @@ People that are participating in the meeting will find these commands useful:
 * q- ```<alias>``` - Remove someone from the speaker queue.
 * ack ```<alias>``` - Acknowledge someone to speak from the speaker queue.
 
-
 ## Reference for people running the meeting and scribes
 
 People that are running the meeting may find these commands useful:
@@ -111,7 +110,9 @@ kimhd: The next thing we will discuss is the DID spec
 
 To continue, and avoid repeating the author name, type `...` (on the new line)
 
+# Scribe and Minutes Publishing Training Video
 
+See a video recording of our training session demonstrating how to scribe (1st half of the video) and how to publish minutes (2nd half). Available [https://github.com/w3c-ccg/training/ScribeTraining.mp4](https://github.com/w3c-ccg/training/ScribeTraining.mp4).
 
 # Publishing the Minutes
 
