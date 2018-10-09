@@ -112,7 +112,7 @@ To continue, and avoid repeating the author name, type `...` (on the new line)
 
 # Scribe and Minutes Publishing Training Video
 
-See a video recording of our training session demonstrating how to scribe (1st half of the video) and how to publish minutes (2nd half). Available [https://github.com/w3c-ccg/training/ScribeTraining.mp4](https://github.com/w3c-ccg/training/ScribeTraining.mp4).
+See a video recording of our training session demonstrating how to scribe (1st half of the video) and how to publish minutes (2nd half). Available [https://youtu.be/0Sn7co2eSCo](https://youtu.be/0Sn7co2eSCo).
 
 # Publishing the Minutes
 
