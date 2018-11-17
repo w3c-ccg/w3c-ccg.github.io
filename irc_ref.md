@@ -160,10 +160,18 @@ Download the raw minutes:
 ## Edit
 Edit the downloaded minutes:
 
-1. Edit the WAV file to 1) delete all audio before the Chair starts talking about the Agenda, and 2) delete all audio after the first person hangs up at the end of the call. Basically, clean up the audio to save the content and save the new file as audio.wav or encode to audio.ogg at 32kbps. For example: `oggenc -b 32 audio.wav`
-1. Go to https://w3c-ccg.github.io/meetings/scribe-tool/ and copy/paste irc.log into the text input box at the bottom. Clean up the IRC log accordingly and overwrite irc.log with the edited file.
-    - Look for any find/replace suggestions in irc.log and update them (s/../..)
-    - Ensure aliases have matches
+1. Clean up the audio:
+    - Open the audio-raw.wav file in an editor (see setup above):
+    - Delete all audio before the Chair starts talking about the Agenda
+    - Delete all audio after the first person hangs up at the end of the call.
+    - Save the new file as audio.wav or encode to .ogg (file name audio.ogg) at 32kbps
+        - For example: `oggenc -b 32 audio.wav`
+2. Clean up the minutes
+    - Go to https://w3c-ccg.github.io/meetings/scribe-tool/ and copy/paste irc.log into the text input box at the bottom. 
+    - Clean up the IRC log accordingly and overwrite irc.log with the edited file.
+    - Things to check
+        - Look for any find/replace suggestions in irc.log and update them (s/../..)
+        - Ensure aliases have matches
 
 ## Publish
 Publish the minutes:
