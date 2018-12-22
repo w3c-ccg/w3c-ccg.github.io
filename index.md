@@ -13,4 +13,4 @@ The mission of the [Credentials Community Group](https://www.w3.org/community/cr
 
 - [Using IRC](irc_ref.md)
 - [Scribing and publishing minutes](scribe_and_publish.md)
-- [Respec]()
+- [Respec](respec.md)
