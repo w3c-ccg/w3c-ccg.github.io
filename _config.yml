@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: W3C Credentials Community Group
-logo: /assets/img/logo.png
+logo: assets/img/logo.png
 description: The W3C Credentials Community Group Landing Page.
 show_downloads: true
 google_analytics:
