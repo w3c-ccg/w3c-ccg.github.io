@@ -1,9 +1,9 @@
 
+# Publishing the Minutes
+
 ## Scribe and Minutes Publishing Training Video
 
 See a video recording of our training session demonstrating how to scribe (1st half of the video) and how to publish minutes (2nd half). Available [https://youtu.be/0Sn7co2eSCo](https://youtu.be/0Sn7co2eSCo).
-
-## Publishing the Minutes
 
 This section documents how one can clean up and publish minutes.
 
@@ -14,7 +14,7 @@ At the end of every call, the raw IRC log and audio recording are uploaded to:
 
 What follows is how you take those raw files and process them to generate the finalized minutes for the meeting.
 
-### Setup
+## Setup
 
 To publish the minutes, you must have the meetings Github repository checked out. WARNING: This is a very large, multi-gigabyte repository, don't try to download it without a good Internet connection. These instructions should work for Linux and Mac OS X systems.
 
@@ -36,7 +36,7 @@ To publish the minutes, you must have the meetings Github repository checked out
     - If you don't have one, you can use Google's free SMTP server https://kinsta.com/knowledgebase/free-smtp-server/
     - Update the SCRAWL_EMAIL_* variables in publishing.cfg 
 
-### Download
+## Download
 Download the raw minutes:
 
 1. Run the `download-raw-minutes` script; flags/options are described below
@@ -46,7 +46,7 @@ Download the raw minutes:
     - `./download-raw-minutes -h` prints help
 1. Minutes and audio are placed in a directory formatted as [YYYY-MM-DD], (e.g. `2018-01-09`)
 
-### Edit
+## Edit
 Edit the downloaded minutes:
 
 1. Clean up the audio:
@@ -62,7 +62,7 @@ Edit the downloaded minutes:
         - Look for any find/replace suggestions in irc.log and update them (s/../..)
         - Ensure aliases have matches
 
-### Publish
+## Publish
 Publish the minutes:
 
 1. `cd ../scribe-tool`
@@ -70,7 +70,7 @@ Publish the minutes:
 
 If there are no errors, the latest minutes should now be published.
 
-### Debugging issues
+# Debugging issues
 
 If using gmail's SMTP server, you may get an error message (ending like below) the first time; if so, just check your email to enable API access. 
 
