@@ -1,7 +1,6 @@
 theme: jekyll-theme-minimal
 title: W3C Credentials Community Group
-logo: assets/img/logo.png
-description: The W3C Credentials Community Group Landing Page.
+description: Increasing trust on the Web, one spec at a time.
 show_downloads: false
 pages_list:       
   Announcements: 'https://w3c-ccg.github.io/announcements/'
