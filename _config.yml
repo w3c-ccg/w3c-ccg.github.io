@@ -3,9 +3,8 @@ title: W3C Credentials Community Group
 logo: assets/img/logo.png
 description: The W3C Credentials Community Group Landing Page.
 show_downloads: true
-author_profile: true
-sidebar:
-  - title: "Another Title"
-    text: "More text here."
-    nav: sidebar-sample
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
 google_analytics:
