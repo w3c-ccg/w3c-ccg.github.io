@@ -8,3 +8,9 @@ The mission of the [Credentials Community Group](https://www.w3.org/community/cr
 - [Action Items](https://github.com/w3c-ccg/community/issues?q=is%3Aopen+is%3Aissue+label%3A%22action+item%22)   
 - [Stories](stories/)
 - [Presentations](presentations/)
+
+## How-tos
+
+- [Using IRC](irc_ref.md)
+- [Scribing]()
+- [Publishing minutes]()
