@@ -3,7 +3,7 @@ The mission of the [Credentials Community Group](https://www.w3.org/community/cr
 
 ## Our work
 
-- [CCG 2018 Work Breakdown Structure](Credentials%20Community%20Group%202018%20WBS.2.pdf)
+- [Roadmap](roadmap/)
 - [Work Items](https://github.com/w3c-ccg/community/blob/master/work_items.md)
 - [Action Items](https://github.com/w3c-ccg/community/issues?q=is%3Aopen+is%3Aissue+label%3A%22action+item%22)   
 - [Stories](stories/)
