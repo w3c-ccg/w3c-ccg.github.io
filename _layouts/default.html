@@ -22,9 +22,11 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
+        <p>
         {% for page in site.pages_list %}
             <a href="{{ page[1] }}">{{ page[0] }}</a><br>
         {% endfor %}
+        </p>
       
         {% if site.show_downloads %}
         <ul class="downloads">
