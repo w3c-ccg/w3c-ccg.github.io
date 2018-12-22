@@ -4,7 +4,9 @@ logo: assets/img/logo.png
 description: The W3C Credentials Community Group Landing Page.
 show_downloads: true
 pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+  Announcements: 'https://w3c-ccg.github.io/announcements/'
+  Connecting to the Calls: 'connecting.md'
+  Using IRC: 'irc_ref.md'
+  Mailing List: 'https://lists.w3.org/Archives/Public/public-credentials/latest'
+  W3C Community Page: 'https://www.w3.org/community/credentials/'
 google_analytics:
