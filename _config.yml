@@ -2,5 +2,13 @@ theme: jekyll-theme-minimal
 title: W3C Credentials Community Group
 logo: assets/img/logo.png
 description: The W3C Credentials Community Group Landing Page.
-show_downloads: true
+show_downloads: false
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+    nav: sidebar-sample
 google_analytics:
