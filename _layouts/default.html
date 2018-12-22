@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+
+ <script src="javascripts/scale.fix.js"></script>
+        <script>
+function nextTuesday() {
+  var skipUntil = new Date('2016-01-12 12:00:00 EST');
+  var date = new Date();
+  date.setDate(date.getDate() + (9 - date.getDay()) % 7);
+  if(date < skipUntil) {
+    date = skipUntil;
+  }
+  return date.toISOString().slice(0, 10);
+}
+console.log(nextTuesday());
+console.log(document.getElementById('meetingDate'));
+document.getElementById('meetingDate').innerHTML = nextTuesday();
+    </script>
+
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
