@@ -30,7 +30,10 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
         
-        {{ site.main }}
+{% for page in site.pages_list %}
+  &nbsp;&nbsp;&nbsp;
+  <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+{% endfor %}
 
         {% if site.show_downloads %}
         <ul class="downloads">
