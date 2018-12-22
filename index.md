@@ -12,6 +12,8 @@ The mission of the [Credentials Community Group](https://www.w3.org/community/cr
 ## How-tos
 
 - [Using IRC](irc_ref.md)
-- [Scribe Training Video](https://www.youtube.com/watch?v=0Sn7co2eSCo&t=1s)
+- [Scribe and Minutes Publishing Training Video](https://www.youtube.com/watch?v=0Sn7co2eSCo&t=1s)
+    - A video recording of our training session demonstrating how to scribe (1st half of the video) and how to publish minutes (2nd half). 
 - [Publishing minutes](scribe.md)
 - [Respec (for creating W3C CCG specs)](respec.md)
+
