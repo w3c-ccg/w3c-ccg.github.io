@@ -17,4 +17,4 @@ The mission of the [Credentials Community Group](https://www.w3.org/community/cr
   - A video recording of our training session demonstrating how to scribe (1st half of the video) and how to publish minutes (2nd half) 
 - [Publishing minutes](publish.md)
 - [Respec (for creating W3C CCG specs)](respec.md)
-
+- [Creating a CCG Repo](create_repo.md)
