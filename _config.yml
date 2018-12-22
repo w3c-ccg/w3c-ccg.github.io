@@ -5,8 +5,8 @@ description: The W3C Credentials Community Group Landing Page.
 show_downloads: true
 pages_list:       
   Announcements: 'https://w3c-ccg.github.io/announcements/'
-  Connecting to the Calls: 'connecting.md'
-  Using IRC: 'irc_ref.md'
+  Connecting to the Calls: 'connecting.html'
+  Using IRC: 'irc_ref.html'
   Mailing List: 'https://lists.w3.org/Archives/Public/public-credentials/latest'
   W3C Community Page: 'https://www.w3.org/community/credentials/'
 google_analytics:
