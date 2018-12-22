@@ -22,6 +22,24 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
+        
+        
+        <h2 id="meetings">Next Meeting</h2>
+        <p id="meetings">
+<strong><span class="icon icon-clock"></span> Date:</strong>
+<span id="meetingDate"></span><br>
+<strong><span class="icon icon-clock"></span> Time</strong>:
+ <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Credentials+Community+Group+Telecon&iso=20170801T12&p1=43&ah=1">12pm Boston</a><br>
+
+<strong><span class="icon icon-mobile"></span> Voice</strong>:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>VoIP:</strong> <a href="sip:ccg@96.89.14.196">sip:ccg@96.89.14.196</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>US phone:</strong> <a href="tel:+15402741034;postd=p6306">+1.540.274.1034 x6306</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>EU phone:</strong> <a href="tel:+33974593106;postd=p6306">+33.9.74.59.31.06 x6306</a><br>
+
+<strong><span class="icon icon-bubble"></span> Chat</strong>:
+<a href="http://irc.w3.org/?channels=ccg">Web</a>,
+<a href="irc://irc.w3.org:6665/#ccg">IRC</a><br>  
+        
         <p>
         {% for page in site.pages_list %}
             <a href="{{ page[1] }}">{{ page[0] }}</a><br>
