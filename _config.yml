@@ -10,4 +10,5 @@ pages_list:
   W3C Community Page: 'https://www.w3.org/community/credentials/'
 github:
   is_project_page: true
+  is_user_page: false
 google_analytics:
