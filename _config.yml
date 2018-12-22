@@ -2,11 +2,13 @@ theme: jekyll-theme-minimal
 title: W3C Credentials Community Group
 logo: assets/img/logo.png
 description: The W3C Credentials Community Group Landing Page.
-show_downloads: true
+show_downloads: false
 pages_list:       
   Announcements: 'https://w3c-ccg.github.io/announcements/'
   Connecting to the Calls: 'connecting.html'
   Using IRC: 'irc_ref.html'
   Mailing List: 'https://lists.w3.org/Archives/Public/public-credentials/latest'
   W3C Community Page: 'https://www.w3.org/community/credentials/'
+github:
+  is_project_page: true
 google_analytics:
