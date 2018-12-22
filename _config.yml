@@ -4,9 +4,9 @@ description: Increasing trust on the Web, one spec at a time.
 show_downloads: false
 pages_list:       
   Announcements: 'https://w3c-ccg.github.io/announcements/'
-  Connecting to the Calls: 'connecting.html'
+  Connecting to the Calls: 'https://w3c-ccg.github.io/connecting.html'
   Mailing List: 'https://lists.w3.org/Archives/Public/public-credentials/latest'
-  Meeting Minutes: 'meetings/'
+  Meeting Minutes: 'https://w3c-ccg.github.io/meetings/'
   W3C Community Page: 'https://www.w3.org/community/credentials/'
 github:
   is_project_page: true
