@@ -56,7 +56,7 @@ Edit the downloaded minutes:
     - Save the new file as audio.wav or encode to .ogg (file name audio.ogg) at 32kbps
         - For example: `oggenc -b 32 audio.wav`
 2. Clean up the minutes
-    - Go to https://w3c-ccg.github.io/meetings/scribe-tool/ and copy/paste irc.log into the text input box at the bottom. 
+    - Go to [the online scribe tool](https://w3c-ccg.github.io/meetings/scribe-tool/) and copy/paste irc.log into the text input box at the bottom. 
     - Clean up the IRC log accordingly and overwrite irc.log with the edited file.
     - Things to check
         - Look for any find/replace suggestions in irc.log and update them (s/../..)
