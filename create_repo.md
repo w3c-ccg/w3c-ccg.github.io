@@ -16,11 +16,11 @@
 - Add repo topic: 
   - `workitem` OR `registry`
   - `w3c-ccg`
-- Add LICENSE.md
-  - Create `LICENSE.md` with contents: `All documents in this Repository are licensed by contributors under the [W3C Software and Document License](http://www.w3.org/Consortium/Legal/copyright-software).`
+- Add LICENSE.md with content below
+- Add CONTRIBUTING.md
 
 
-CODEOWNERS sample
+## CODEOWNERS sample
 ```
 # These owners will be the default owners for everything in
 # the repo. Unless a later match takes precedence,
@@ -29,4 +29,9 @@ CODEOWNERS sample
 *       @owner1 @owner2
 
 # See CODEOWNERS syntax here: https://help.github.com/articles/about-codeowners/#codeowners-syntax
+```
+
+## LICENSE.md content
+```
+All documents in this Repository are licensed by contributors under the [W3C Software and Document License](http://www.w3.org/Consortium/Legal/copyright-software).
 ```
