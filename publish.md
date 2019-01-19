@@ -33,8 +33,8 @@ To publish the minutes, you must have the meetings Github repository checked out
     1. After filling in details, generate a client id and secret
     1. Populate the SCRAWL_LINKEDIN_* variables in publishing.cfg 
 1. Update publishing.cfg with your SMTP information for sending emails.
-    - If you don't have one, you can use Google's free SMTP server https://kinsta.com/knowledgebase/free-smtp-server/
-    - Update the SCRAWL_EMAIL_* variables in publishing.cfg 
+    - If you don't have one, you can use Google's free SMTP server https://kinsta.com/knowledgebase/free-smtp-server/. The default entries in publishing.cfg.example are those used with gmail. You should just have to change your from address, username (the same), and password.
+    - Update the SCRAWL_EMAIL_* variables in publishing.cfg
 
 ## Download
 Download the raw minutes:
