@@ -17,7 +17,7 @@
 - Create CODEOWNERS file
   - Typical sample is below
 - Add LICENSE.md with content below
-- Add [[CONTRIBUTING.md]]
+- Add [CONTRIBUTING.md](CONTRIBUTING.md)
 
 
 ## CODEOWNERS sample
