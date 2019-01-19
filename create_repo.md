@@ -14,7 +14,7 @@
 		- Editors: Write
   - Collaborators: anyone not in the group who needs access
 - TODO
-  - add repo "tag"
+  - add repo "topic"
   - deal with IP issues
 
 
