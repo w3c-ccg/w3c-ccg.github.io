@@ -13,6 +13,9 @@
     - Chairs: Admin
 		- Editors: Write
   - Collaborators: anyone not in the group who needs access
+- TODO
+  - add repo "tag"
+  - deal with IP issues
 
 
 CODEOWNERS sample
