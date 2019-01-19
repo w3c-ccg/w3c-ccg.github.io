@@ -13,9 +13,10 @@
     - Chairs: Admin
 		- Editors: Write
   - Collaborators: anyone not in the group who needs access
-- TODO
-  - add repo "topic"
-  - deal with IP issues
+- Add repo topic: 
+  - `workitem` OR `registry`
+  - `w3c-ccg`
+- TODO: deal with IP issues
 
 
 CODEOWNERS sample
