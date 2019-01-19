@@ -16,7 +16,8 @@
 - Add repo topic: 
   - `workitem` OR `registry`
   - `w3c-ccg`
-- TODO: deal with IP issues
+- Add LICENSE.md
+  - Create `LICENSE.md` with contents: `All documents in this Repository are licensed by contributors under the [W3C Software and Document License](http://www.w3.org/Consortium/Legal/copyright-software).`
 
 
 CODEOWNERS sample
