@@ -6,18 +6,18 @@
   - https://www.gep13.co.uk/blog/how-to-create-gh-pages-branch
 - Switch default branch:
   - github repo > settings > branches
-- Create CODEOWNERS file
-  - Typical sample is below
 - Update collaborators
   - Teams
     - Chairs: Admin
-		- Editors: Write
+    - Editors: Write
   - Collaborators: anyone not in the group who needs access
 - Add repo topic: 
   - `workitem` OR `registry`
   - `w3c-ccg`
+- Create CODEOWNERS file
+  - Typical sample is below
 - Add LICENSE.md with content below
-- Add CONTRIBUTING.md
+- Add [[CONTRIBUTING.md]]
 
 
 ## CODEOWNERS sample
