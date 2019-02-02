@@ -2,8 +2,16 @@
 # Creating a repo
 
 - Create the repo 
-- Create gh-pages branch (command line)
-  - https://www.gep13.co.uk/blog/how-to-create-gh-pages-branch
+- Create gh-pages branch and default files
+  - Option 1: Run script in `https://github.com/w3c-ccg/create-repo`, from parent dir, using repo name from above step
+    - Usage example: `./create-repo/create.sh functional-identity jandrieu ChristopherA`
+  - Option 2: Manual
+    - Create gh-pages branch (command line)
+      - https://www.gep13.co.uk/blog/how-to-create-gh-pages-branch
+    - Create CODEOWNERS file
+      - Typical sample is below
+    - Add LICENSE.md with content below
+    - Add [CONTRIBUTING.md](CONTRIBUTING.md)
 - Switch default branch:
   - github repo > settings > branches
 - Update collaborators
@@ -14,10 +22,6 @@
 - Add repo topic: 
   - `workitem` OR `registry`
   - `w3c-ccg`
-- Create CODEOWNERS file
-  - Typical sample is below
-- Add LICENSE.md with content below
-- Add [CONTRIBUTING.md](CONTRIBUTING.md)
 
 
 ## CODEOWNERS sample
