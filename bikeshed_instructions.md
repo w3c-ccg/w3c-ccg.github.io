@@ -63,6 +63,12 @@ Abstract: The Bitcoin Reference DID method specification conforms to the require
 
 ```
 
+Note: In Amira, I ended up adding this line as well for markdown-to-html bolding:
+
+```
+Markup Shorthands: css no, markdown yes
+```
+
 
 ## Running Bikeshed
 
