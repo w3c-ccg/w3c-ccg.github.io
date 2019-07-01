@@ -41,6 +41,29 @@ brew install python@2
 
 Use the [bikeshed quick start](https://github.com/tabatkins/bikeshed/blob/master/docs/quick-start.md).
 
+An example of the BTCR metadata section is here:
+
+```
+<pre class='metadata'>
+Title: BTCR DID Method
+Shortname: didm-btcr
+Level: 1
+Status: w3c/CG-DRAFT
+Group: Credentials Community Group
+URL: https://w3c-ccg.github.io/didm-btcr/
+
+Editor: Christopher Allen, http://www.lifewithalacrity.com/
+Editor: Kim Hamilton Duffy, https://github.com/kimdhamilton
+Editor: Ryan Grant
+Editor: Dan Pape, https://github.com/danpape
+
+Abstract: The Bitcoin Reference DID method specification conforms to the requirements specified in the <a href="https://w3c-ccg.github.io/did-spec/">DID specification</a> currently published by the W3C Credentials Community Group. For more information about DIDs and DID method specifications, please see the <a href="https://github.com/WebOfTrustInfo/rwot7/blob/master/topics-and-advance-readings/did-primer.md">DID Primer</a>.
+
+</pre>
+
+```
+
+
 ## Running Bikeshed
 
 ```
