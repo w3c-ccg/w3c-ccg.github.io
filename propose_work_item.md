@@ -1,6 +1,6 @@
 # Proposing a work item
 
-We're trying to make CCG participation easy. If you're not comfortable using Github, send an email to public-credentials@w3.org, and we'll help you out. 
+*We're trying to make CCG participation easy. If you're not comfortable using Github, send an email to public-credentials@w3.org, and we'll help you out.*
 
 If you are comfortable using Github, please follow the steps below.
 
