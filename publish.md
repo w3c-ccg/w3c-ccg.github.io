@@ -17,7 +17,7 @@ curl -H "Accept: application/vnd.github.everest-preview+json" \
 ```
 
 2. Clean up the minutes ad check in
-    - Go to the [scribe tool](https://w3c-ccg.github.io/meetings/scribe-tool/) and clean up the minutes (see next section)
+    - Go to the [scribe tool](https://w3c-ccg.github.io/meetings/scribe-tool/) and [clean up the minutes](#cleaning-up-the-minutes)
     - Check in the cleaned up file into the same meeting dir irc-raw.log was located in, name it irc.log
 
 3. The rest is handled for you. Checking in a file named irc.log does the following:
