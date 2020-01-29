@@ -38,8 +38,8 @@ curl -H "Accept: application/vnd.github.everest-preview+json" \
 ## Details and Implementation Notes    
     
 ### Comments/Bugs/Future Improvements
-- We don't have audio integrated into this process yet. 
-- Reduced steps:
+- We don't have audio integrated into this process yet. [See details below for what needs to be done]((#cleaning-up-the-minutes))
+- Reducing number of steps:
     - This can be reduced to 1 step once we get into better scriibe hygiene habits. The separate cleanup won't be necessary
     - We could also try kicking this off on a schedule or using an s3 file watcher approach
 - Bug in meeting minute time (it adds 1 day -- possibly a time zone offset issue)
@@ -73,12 +73,7 @@ We use github actions to process the minutes as a pipeline. At the moment there 
     - Github Action File: [publish_minutes.yml](https://github.com/w3c-ccg/meetings/blob/gh-pages/.github/workflows/publish_minutes.yml)
 
 
-
-
-
-
-
-## Cleaning up the Audio
+### Cleaning up the Audio
 
 - Open the audio-raw.wav file in an editor (see setup above):
 - Delete all audio before the Chair starts talking about the Agenda
