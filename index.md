@@ -17,9 +17,9 @@ The mission of the [Credentials Community Group](https://www.w3.org/community/cr
 - Creating W3C CCG Specs
     - Easier: [Creating a spec with markdown and bikeshed](bikeshed_instructions.md)
     - Advanced: [Respec tutorial](respec.md)
-- [Publishing minutes](publish.md)
+- [Publishing minutes](https://github.com/w3c-ccg/meetings/blob/gh-pages/README.md)
 - [Creating a CCG Repo](create_repo.md)
 - [Scribe and Minutes Publishing Training Video](https://www.youtube.com/watch?v=0Sn7co2eSCo&t=1s)
-  - A video recording of our training session demonstrating how to scribe (1st half of the video). The second part describes how to publish, and it is out of date. See [publishing minutes](publish.md) for instructions
+  - A video recording of our training session demonstrating how to scribe (1st half of the video). The second part describes how to publish, and it is out of date. See [publishing minutes](https://github.com/w3c-ccg/meetings/blob/gh-pages/README.md) for instructions
    
 
