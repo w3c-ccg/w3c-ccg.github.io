@@ -1,5 +1,5 @@
 
-# Creating a repo
+# Creating a DDC work item
 
 - Create the repo:
     - If a repo exists, ask the current owner to transfer over the repo to the CCG github org
@@ -21,7 +21,7 @@
 - Add repo topic: (through github interface)
   - `workitem` OR `registry`
   - `w3c-ccg`
-
+- Add to [work items list](https://github.com/w3c-ccg/community/blob/master/work_items.md)
 
 ## CODEOWNERS sample
 ```
