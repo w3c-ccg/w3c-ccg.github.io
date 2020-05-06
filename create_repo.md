@@ -6,11 +6,9 @@
     - Otherwise create one
 - Add default files
   - Option 1: Run script in `https://github.com/w3c-ccg/create-repo`, from parent dir, using repo name from above step
-    - Command: `./create-repo/create.sh REPO_NAME BRANCH OWNER1 OWNER2 ...`
-    - Usage example: `./create-repo/create.sh functional-identity gh-pages jandrieu ChristopherA`
+    - Command: `./create-repo/create.sh REPO_NAME OWNER1 OWNER2 ...`
+    - Usage example: `./create-repo/create.sh functional-identity jandrieu ChristopherA`
   - Option 2: Manual
-    - Create gh-pages branch if preferred (command line)
-      - https://www.gep13.co.uk/blog/how-to-create-gh-pages-branch
     - Create CODEOWNERS file
       - Typical sample is below
     - Add LICENSE.md with content below
