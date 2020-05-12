@@ -14,7 +14,7 @@
     - Add LICENSE.md with content below
     - Add [CONTRIBUTING.md](CONTRIBUTING.md)
 - Update collaborators (through github interface)
-  - Teams
+  - Settings > Manage Access
     - Chairs: Admin
     - Editors: Write
   - Collaborators: anyone not in the group who needs access
