@@ -5,7 +5,7 @@
     - If a repo exists, ask the current owner to transfer over the repo to the CCG github org
     - Otherwise create one
 - Add default files
-  - Option 1: Run script in `https://github.com/w3c-ccg/create-repo`, from parent dir, using repo name from above step
+  - Option 1: Run script in `https://github.com/w3c-ccg/create-repo`, from parent dir, using repo name from above step; then open a pull request
     - Command: `./create-repo/create.sh REPO_NAME OWNER1 OWNER2 ...`
     - Usage example: `./create-repo/create.sh functional-identity jandrieu ChristopherA`
   - Option 2: Manual
