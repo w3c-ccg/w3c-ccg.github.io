@@ -22,7 +22,7 @@ People that are running the meeting may find these commands useful:
 * topic: ```TEXT``` - Set the current topic of discussion.
 * voip: number? - Get the dial in numbers for the call. (TODO: is this right? I thought it was connections? )
 * voip: connections? - Get the dial in numbers for the call. [Details](#list-connections)
-* voip: noisy? - See which audio channels are being noisy. Useful for finding distracting audio from participants.
+* voip: noise? - See which audio channels are being noisy. Useful for finding distracting audio from participants.
 * voip: mute ```<last 3 digits of SIP/...>``` - Mute an audio channel.
 * voip: unmute ```<last 3 digits of SIP/...>``` - Unmute an audio channel.
 * voip: disconnect ```<last 3 digits of SIP/...>``` - Disconnect an audio channel.
