@@ -1,5 +1,5 @@
 
-# Creating a DDC work item
+# Creating a CCG work item
 
 - Create the repo:
     - If a repo exists, ask the current owner to transfer over the repo to the CCG github org
