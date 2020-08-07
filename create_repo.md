@@ -17,7 +17,8 @@
   - Settings > Manage Access
     - Chairs: Admin
     - Editors: Write
-  - Collaborators: anyone not in the group who needs access
+    - Contributors: View
+  - Give the CODEOWNERS admin access 
 - Add repo topic: (through github interface)
   - `workitem` OR `registry`
   - `w3c-ccg`
