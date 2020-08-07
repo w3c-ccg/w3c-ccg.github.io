@@ -10,9 +10,9 @@
     - Usage example: `./create-repo/create.sh functional-identity jandrieu ChristopherA`
   - Option 2: Manual
     - Create CODEOWNERS file
-      - Typical sample is below
+      - Typical sample is below. You will need to customize sample text with codeowner names.
     - Add LICENSE.md with content below
-    - Add [CONTRIBUTING.md](CONTRIBUTING.md)
+    - Add [CONTRIBUTING.md](CONTRIBUTING.md) You can use this boilerplate as is.
 - Update collaborators (through github interface)
   - Settings > Manage Access
     - Chairs: Admin
