@@ -4,9 +4,9 @@
 
 If you are comfortable using Github, please follow the steps below.
 
-tl;dr Create a Github issue using the [New Work Item template](https://github.com/w3c-ccg/community/issues/new?assignees=ChristopherA%2C+jandrieu%2C+kimdhamilton&labels=proposed+work+items&template=ccg-new-work-item-template.md&title=%5BPROPOSED+WORK+ITEM%5D) and send an CCG email discussion list (public-credentials@w3.org)
+tl;dr Create a Github issue using the [New Work Item template](https://github.com/w3c-ccg/community/issues/new?assignees=wyc%2C+vsnt%2C+kimdhamilton&labels=proposed+work+items&template=ccg-new-work-item-template.md&title=%5BPROPOSED+WORK+ITEM%5D) and send an CCG email discussion list (public-credentials@w3.org)
 
-1. Create a github issue using the [New Work Item template](https://github.com/w3c-ccg/community/issues/new?assignees=ChristopherA%2C+jandrieu%2C+kimdhamilton&labels=proposed+work+items&template=ccg-new-work-item-template.md&title=%5BPROPOSED+WORK+ITEM%5D). The template will prompt you to enter the following:
+1. Create a github issue using the [New Work Item template](https://github.com/w3c-ccg/community/issues/new?assignees=wyc%2C+vsnt%2C+kimdhamilton&labels=proposed+work+items&template=ccg-new-work-item-template.md&title=%5BPROPOSED+WORK+ITEM%5D). The template will prompt you to enter the following:
     - Include a link to an Abstract or Draft of proposed Work Item (typically a link to a google doc or a markdown page in Github, but anything is acceptable)
     - The editors responsible for advancing the Work Item. (Proposals may have a single editor; however, before approval of a Work Item it must have more than one editor, and editors must include representation from at least two companies.)
     - Note: the Github Work Item template autopopulates the following fields:
