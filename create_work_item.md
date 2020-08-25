@@ -18,7 +18,7 @@
     - Chairs: Admin
     - Editors: Write
     - Contributors: View
-  - Give the CODEOWNERS admin access 
+  - Give the CODEOWNERS "maintain" access 
 - Add repo topic: (through github interface)
   - `workitem` OR `registry`
   - `w3c-ccg`
