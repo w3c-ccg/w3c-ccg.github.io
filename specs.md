@@ -44,7 +44,7 @@ There are four primary parts to the video:
 
 There is a time index at the beginning of the video
 
-### Conversion fron Markdown
+### Conversion from Markdown
 
 If you choose this route, we strongly recommend using github commits to automatically convert the markdown to html. You can also use the toolset on your local machine to preview the conversion, but the on-commit action makes it easier for the broadest set of contributors.
 
