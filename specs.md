@@ -36,9 +36,9 @@ There is a time index at the beginning of the video
 
 If you choose this route, we strongly recommend using github commits to automatically convert the markdown to html. You can also use the toolset on your local machine to preview the conversion, but the on-commit action makes it easier for the broadest set of contributors.
 
-There are several ways to accomplish this, but one tested method is using the bikeshed tool as a github commit action, which converts the bikeshed/markdown file (extension is .bs) to html. The [vc-ed-models](https://w3c-ccg.github.io/vc-ed-models/) work item demonstrates how to do this.
+There are several ways to accomplish this, but one tested method is using the bikeshed tool as a github commit action, which converts the bikeshed/markdown file (extension is .bs) to html. To use this, you can create a repo from the [markdown-to-spec](https://github.com/w3c-ccg/markdown-to-spec) template.
 
-Note the following:
+The [vc-ed-models](https://w3c-ccg.github.io/vc-ed-models/) work item uses this. Note that following:
 - See the [vc-ed-models repo](https://github.com/w3c-ccg/vc-ed-models)
 - The "source" file is index.bs (in the main branch)
 - The [github action](https://github.com/w3c-ccg/vc-ed-models/blob/main/.github/workflows/publish.yml) converts that file to index.html and pushes it to the gh-pages branch
