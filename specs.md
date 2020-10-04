@@ -3,33 +3,21 @@
 
 This page provides tips for creating specs or reports for your CCG work item. The W3C has a small set of requirements for [how community groups publish their reports](https://www.w3.org/community/reports/reqs/), and while these don't require use of the toolsets below, it will save you a lot of time to use one of these methods.
 
-## Standard Format and Tools
+## tl;dr Guidance
 
-At the core, [respec](https://github.com/w3c/respec/wiki) is the most widely used tool for generating W3C specs/reports with consistent structure (and look and feel). Working with respec directly involves modifying HTML documents, which some CCG members find difficult and tedious. For that reason, there are other tools to help with either the initial creation (for example, converting from google docs), or ongoing conversion (from markdown files). This describes the options, how to pick one, and instructions for getting started with each.
+When to use each type of tool
 
-| Tool Type | Required knowledge | Advantages            | Disadvantages | 
-|-----------|--------------------|-----------------------|---------------|
-| Respec    | HTML               | Close change tracking | May be difficult for non-technical users |
-| Ongoing conversion from Markdown | Markdown | Ease of use   | Moderate change tracking  |
-| Conversion from doc | --        | Initial ease of use   | Output more difficult to understand; not recommended for use with ongoing conversions | 
-
-### tl;dr Guidance
-
-- Use respec directly
+- Respec
    - For more technical or advanced specifications
    - If close change tracking is critical
-- Use on-commit conversion from markdown (using the bikeshed tool and github commits)
+- Automatic conversion from markdown
+   - For example, by using the bikeshed tool and github commits
    - Recommended other community notes, commentary, and earlier stages of community specifications.
    - Note that you can switch to direct use of respec over time
 - Other tools supporting conversion from doc formats
    - Largely untested and not recommended. Use at your own peril.
    
-### Detailed Guidance (OK to skip)
-Note that a big distinguishing characteristic is the ability to perform change tracking on the generated (html) document. This is essential for very detailed and/or technical specs with a lot of changes (for example the VC and DID specs) -- both for contributor tracking and for compliance with patent licensing commitments.
-
-Ongoing conversion from markdown may be a sweetspot for either less technical reports or ones that are not moving to a working group (for example, community group notes and other reports). With github commit actions, it's possible to run conversion tools on commit, so that all you have to worry about is editing markdown files. Change tracking on the markdown file is easy, but may be a little more difficult on the .html file. At the same time, it's possible to use such conversion tools for a while and switch to using respec directly as a work item gets more mature.
-
-The last category, involving use of tools that convert from .doc formats to .html are appealing but largely experimental. For that reason, this path is largely untested.
+For details about this guidance, see [Overview of Standard Formats and Tools](#overview-of-standard-formats-and-tools)
 
 ## Get started
 
@@ -44,7 +32,7 @@ There are four primary parts to the video:
 
 There is a time index at the beginning of the video
 
-### Conversion from Markdown
+### Automatic Conversion from Markdown
 
 If you choose this route, we strongly recommend using github commits to automatically convert the markdown to html. You can also use the toolset on your local machine to preview the conversion, but the on-commit action makes it easier for the broadest set of contributors.
 
@@ -62,3 +50,19 @@ You can also run bikeshed on your local machine to preview the conversion. [See 
 - [Sandbox demo](credweb.org/signals)
 
 
+## Overview of Standard Formats and Tools
+
+At the core, [respec](https://github.com/w3c/respec/wiki) is the most widely used tool for generating W3C specs/reports with consistent structure (and look and feel). Working with respec directly involves modifying HTML documents, which some CCG members find difficult and tedious. For that reason, there are other tools to help with either the initial creation (for example, converting from google docs), or ongoing conversion (from markdown files). This describes the options, how to pick one, and instructions for getting started with each.
+
+| Tool Type | Required knowledge | Advantages            | Disadvantages | 
+|-----------|--------------------|-----------------------|---------------|
+| Respec    | HTML               | Close change tracking | May be difficult for non-technical users |
+| Ongoing conversion from Markdown | Markdown | Ease of use   | Moderate change tracking  |
+| Conversion from doc | --        | Initial ease of use   | Output more difficult to understand; not recommended for use with ongoing conversions | 
+   
+### Detailed Guidance
+Note that a big distinguishing characteristic is the ability to perform change tracking on the generated (html) document. This is essential for very detailed and/or technical specs with a lot of changes (for example the VC and DID specs) -- both for contributor tracking and for compliance with patent licensing commitments.
+
+Ongoing conversion from markdown may be a sweetspot for either less technical reports or ones that are not moving to a working group (for example, community group notes and other reports). With github commit actions, it's possible to run conversion tools on commit, so that all you have to worry about is editing markdown files. Change tracking on the markdown file is easy, but may be a little more difficult on the .html file. At the same time, it's possible to use such conversion tools for a while and switch to using respec directly as a work item gets more mature.
+
+The last category, involving use of tools that convert from .doc formats to .html are appealing but largely experimental. For that reason, this path is largely untested.
