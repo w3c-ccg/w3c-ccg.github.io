@@ -14,9 +14,7 @@ The mission of the [Credentials Community Group](https://www.w3.org/community/cr
 
 - [Using IRC](irc_ref.md)
 - [Propose a work item](propose_work_item.md)
-- Creating W3C CCG Specs
-    - Easier: [Creating a spec with markdown and bikeshed](bikeshed_instructions.md)
-    - Advanced: [Respec tutorial](respec.md)
+- [Creating W3C CCG Specs](specs.md)
 - [VCWG Maintenance Process](https://github.com/w3c-ccg/w3c-ccg.github.io/blob/master/VCWGmaintprocess.md) 
 - [Publishing minutes](https://github.com/w3c-ccg/meetings/blob/gh-pages/generate_minutes.md)
 - [Creating a CCG work item](create_work_item.md)
