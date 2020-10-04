@@ -1,6 +1,8 @@
 
 # Creating a CCG work item
 
+Alternative: if the work item owners want to use markdown (instead of respec directly), you can use the [markdown-to-spec](https://github.com/w3c-ccg/markdown-to-spec) template. Follow the instructions on the [README.md](https://github.com/w3c-ccg/markdown-to-spec/README.md)
+
 - Create the repo:
     - If a repo exists, ask the current owner to transfer over the repo to the CCG github org
     - Otherwise create one
