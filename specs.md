@@ -3,14 +3,16 @@
 
 ## Table of Contents
 
-- [About this Doc](#about)
+- [About](#about)
 - [Quick Start](#quick-start)
-- [TL;DR: What Method Should I Use?](#tl-dr--what-method-should-i-use-)
+- [Which Method Should I Use?](#which-method-should-i-use-)
 - [Respec](#respec)
 - [Markdown Conversion](#markdown-conversion)
   * [Spec-Prod](#spec-prod)
-    - [Get Started](#get-started)
-    -  [Additional Information](#additional-information)
+    + [Get Started](#get-started)
+    + [Additional Information](#additional-information)
+      - [Example](#example)
+      - [Preview / Run Locally](#preview---run-locally)
   * [ReSpec Github Pages](#respec-github-pages)
 - [Other](#other)
   * [Docs to Markdown](#docs-to-markdown)
@@ -18,6 +20,7 @@
 - [Recommendation Details](#recommendation-details)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## About
 
@@ -33,7 +36,7 @@ If you already know what tool/method you want to use to write your specs/reports
 - [Markdown converted to HTML](#markdown-conversion) - editing markdown docs that get auto-converted to HTML 
 - [Other methods](#other)
 
-## TL;DR: What Method Should I Use?
+## Which Method Should I Use?
 
 - Use [Respec](#respec):
    - For more technical or advanced specifications
@@ -72,10 +75,12 @@ To get started, use the [markdown-to-spec](https://github.com/w3c-ccg/markdown-t
 
 #### Additional Information
 
+##### Example
 To see an example repo that uses it, look at [vc-ed-models spec](https://w3c-ccg.github.io/vc-ed-models/) and [source](https://github.com/w3c-ccg/vc-ed-models). Note the following:
 - The "source" file for the html is index.bs, in the main branch
 - The [github action](https://github.com/w3c-ccg/vc-ed-models/blob/main/.github/workflows/publish.yml) converts that file to index.html and pushes it to the gh-pages branch
 
+##### Preview / Run Locally
 You can also run bikeshed on your local machine to preview the conversion. [See instructions for running bikeshed locally](https://w3c-ccg.github.io/bikeshed_instructions.html).
 
 ### ReSpec Github Pages
