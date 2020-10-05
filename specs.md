@@ -1,6 +1,27 @@
 
 # Creating Specs/Reports for W3C CCG Work Items
 
+## Table of Contents
+
+* [About this Doc](#about)
+* [Quick Start](#quick-start)
+* [TL;DR: What Method Should I Use?](#tl-dr--what-method-should-i-use-)
+* [Get Started](#get-started)
+ + [Respec](#respec)
+ + [Markdown Conversion](#markdown-conversion)
+   - [Spec-Prod](#spec-prod)
+     * [Get Started](#get-started)
+     * [Additional Information](#additional-information)
+   - [ReSpec Github Pages](#respec-github-pages)
+ + [Other](#other)
+   - [Docs to Markdown](#docs-to-markdown)
+   - [Doc 2 ReSpec Tool (Beta)](#doc-2-respec-tool--beta-)
+* [Recommendation Details](#recommendation-details)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+## About
+
 This page provides instructions for creating specs or reports for your CCG work item. The W3C has a small set of requirements for [how community groups publish their reports](https://www.w3.org/community/reports/reqs/), which these methods help you comply with. 
 
 At the core, [ReSpec](https://github.com/w3c/respec/wiki) widely used for generating W3C specs/reports with consistent structure (and look and feel). And while you don't have to use ReSpec (or the methods listed below), these make it much easier to comply with [W3C's community report requirements](https://www.w3.org/community/reports/reqs/), which are critical for patent licensing commitments (among other things).
@@ -24,7 +45,7 @@ If you already know what tool/method you want to use to write your specs/reports
    - Other notes:
      - You can always switch to direct use of respec over time
      - If you already have a document (like a google doc), you can use a tool to convert to markdown to get started
-- Other tools supporting conversion from doc formats
+- [Other tools]() supporting conversion from doc formats
    - These can be useful for getting started from an existing google doc
    - These are not recommended for ongoing conversion because they make change tracking very difficult
    
