@@ -3,20 +3,19 @@
 
 ## Table of Contents
 
-* [About this Doc](#about)
-* [Quick Start](#quick-start)
-* [TL;DR: What Method Should I Use?](#tl-dr--what-method-should-i-use-)
-* [Get Started](#get-started)
- + [Respec](#respec)
- + [Markdown Conversion](#markdown-conversion)
-   - [Spec-Prod](#spec-prod)
-     * [Get Started](#get-started)
-     * [Additional Information](#additional-information)
-   - [ReSpec Github Pages](#respec-github-pages)
- + [Other](#other)
-   - [Docs to Markdown](#docs-to-markdown)
-   - [Doc 2 ReSpec Tool (Beta)](#doc-2-respec-tool--beta-)
-* [Recommendation Details](#recommendation-details)
+- [About this Doc](#about)
+- [Quick Start](#quick-start)
+- [TL;DR: What Method Should I Use?](#tl-dr--what-method-should-i-use-)
+- [Respec](#respec)
+- [Markdown Conversion](#markdown-conversion)
+  * [Spec-Prod](#spec-prod)
+    - [Get Started](#get-started)
+    -  [Additional Information](#additional-information)
+  * [ReSpec Github Pages](#respec-github-pages)
+- [Other](#other)
+  * [Docs to Markdown](#docs-to-markdown)
+  * [Doc 2 ReSpec Tool (Beta)](#doc-2-respec-tool--beta-)
+- [Recommendation Details](#recommendation-details)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -51,9 +50,7 @@ If you already know what tool/method you want to use to write your specs/reports
    
 For additional rationale behind the above guidance, see [Recommendation Details](#recommendation-details).
 
-## Get started
-
-### Respec 
+## Respec 
 
 - [Tutorial Video](https://youtu.be/0eQXU6Z-A6Q), divided into four primary parts (there is a time index at the beginning of the video):
   1. Tutorial on setting up a new github repository for ccg work (about 10 minutes)
@@ -62,18 +59,18 @@ For additional rationale behind the above guidance, see [Recommendation Details]
   4. Q&A (~15 minutes)
 - [Respec Documentation](https://respec.org/docs/)
 
-### Markdown Conversion
+## Markdown Conversion
 
 There are 2 methods to accomplish this. Both allow you to edit markdown files and have the html/ReSpec generated for you on commit. You can also use the toolset on your local machine to preview the html conversion, but the automatic conversion makes it easier for the broadest set of contributors.
 
-#### Spec-Prod
+### Spec-Prod
 
 [Spec-Prod](https://github.com/w3c/spec-prod) is a W3C-provided tool that converts the bikeshed (extension of markdown files -- uses .bs file extension) file to html. 
 
-##### Get Started
+#### Get Started
 To get started, use the [markdown-to-spec](https://github.com/w3c-ccg/markdown-to-spec) template repo. Follow the simple [README steps](https://github.com/w3c-ccg/markdown-to-spec/README.md)
 
-##### Additional Information
+#### Additional Information
 
 To see an example repo that uses it, look at [vc-ed-models spec](https://w3c-ccg.github.io/vc-ed-models/) and [source](https://github.com/w3c-ccg/vc-ed-models). Note the following:
 - The "source" file for the html is index.bs, in the main branch
@@ -81,7 +78,7 @@ To see an example repo that uses it, look at [vc-ed-models spec](https://w3c-ccg
 
 You can also run bikeshed on your local machine to preview the conversion. [See instructions for running bikeshed locally](https://w3c-ccg.github.io/bikeshed_instructions.html).
 
-#### ReSpec Github Pages
+### ReSpec Github Pages
 
 [ReSpec github pages](https://github.com/transmute-industries/respec-github-pages) also allows you to:
 - edit in markdown
@@ -89,11 +86,11 @@ You can also run bikeshed on your local machine to preview the conversion. [See 
 
 It uses Github Pages site generation to convert to the ReSpec html.
 
-### Other
+## Other
 
 If you already have a google doc, you can convert it to markdown or respec (and subsequently use the above methods).
 
-#### Docs to Markdown 
+### Docs to Markdown 
 
 Docs to Markdown is a google doc addon that will convert to markdown for you. You'll most likely need to cleanup the markdown output, but it's a convenient way to get started. 
 
@@ -103,7 +100,7 @@ To use:
 
 ![Addon menu](addon.png)
 
-#### Doc 2 ReSpec Tool (Beta)
+### Doc 2 ReSpec Tool (Beta)
 This is beta and not known to be tested in the CCG, but feel free to try it out: 
 - [Description from mailing list](https://lists.w3.org/Archives/Public/spec-prod/2018JulSep/0003.html)
 - [Sandbox demo](credweb.org/signals)
