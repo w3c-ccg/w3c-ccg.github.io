@@ -1,14 +1,20 @@
-# Creating spectext with markdown and bikeshed
+# Creating spectext with bikeshed (markdown)
 
-## About
+[Bikeshed](https://github.com/tabatkins/bikeshed) is a tool that generates specs (html/ReSpec files) from simpler source files, such as markdown.
 
-[Bikeshed](https://github.com/tabatkins/bikeshed) is a tool that generates specs (spectext html files) from simpler source files, such as markdown.
+If you're using bikeshed, we recommend performing the conversion to html/ReSec as a github action. You can use the [markdown-to-spec repo](https://github.com/w3c-ccg/markdown-to-spec) as a template.
 
-### Example
+Use the [bikeshed quick start](https://github.com/tabatkins/bikeshed/blob/master/docs/quick-start.md).
 
-The BTCR DID method spec uses bikeshed for generating spectext. We edit the BTCR [index.bs file](https://github.com/w3c-ccg/didm-btcr/blob/gh-pages/index.bs), and then run bikeshed to generate the [index.html file](https://github.com/w3c-ccg/didm-btcr/blob/gh-pages/index.html). [The rendered output is shown here](https://w3c-ccg.github.io/didm-btcr/).
+## Example
 
-### When to use
+The [vc-ed-models spec](https://w3c-ccg.github.io/vc-ed-models/) and [source](https://github.com/w3c-ccg/vc-ed-models) demonstrate a spec that's written in bikeshed with a github action that auto-converts to HTML/ReSpec Note the following:
+- The "source" file for the html is index.bs, in the main branch
+- The [github action](https://github.com/w3c-ccg/vc-ed-models/blob/main/.github/workflows/publish.yml) converts that file to index.html and pushes it to the gh-pages branch
+
+You can run bikeshed locally to preview the results. Instructions are below.
+
+## When to use
 
 Spec authors/editors may prefer to use markdown and bikeshed for the following types of [CCG work items](https://docs.google.com/document/d/1vj811aUbs8GwZUNo-LIFBHafsz4rZTSnRtPv7RQaqNc):
 
@@ -18,13 +24,9 @@ Spec authors/editors may prefer to use markdown and bikeshed for the following t
 
 In later phases of Community Specifications, especially complex ones like the DID spec, participants may prefer direct diffs on the html for precision. 
 
-### Known Issues
+## Running Locally
 
-While easier to work with than spectext files, this still involves bikeshed tool install/run instructions, and therefore is not non-dev friendly. 
-
-As a workaround, we could stand up a generation tool to allow people to run bikeshed in a browser.
-
-## Installing Bikeshed
+### Installing Bikeshed
 ```
 git clone https://github.com/tabatkins/bikeshed.git
 cd <location>/bikeshed
@@ -37,9 +39,9 @@ brew install python@2
  pip install pygments lxml --upgrade
 ```
 
-## Starting a spec
+## Additional Examples
 
-Use the [bikeshed quick start](https://github.com/tabatkins/bikeshed/blob/master/docs/quick-start.md).
+The BTCR DID method spec uses bikeshed for generating spectext. We edit the BTCR [index.bs file](https://github.com/w3c-ccg/didm-btcr/blob/gh-pages/index.bs), and then run bikeshed to generate the [index.html file](https://github.com/w3c-ccg/didm-btcr/blob/gh-pages/index.html). [The rendered output is shown here](https://w3c-ccg.github.io/didm-btcr/).
 
 An example of the BTCR metadata section is here:
 
