@@ -80,7 +80,7 @@ To see an example repo that uses it, look at [vc-ed-models spec](https://w3c-ccg
 - The "source" file for the html is index.bs, in the main branch
 - The [github action](https://github.com/w3c-ccg/vc-ed-models/blob/main/.github/workflows/publish.yml) converts that file to index.html and pushes it to the gh-pages branch
 
-##### Preview / Run Locally
+##### Learn More about Bikeshed / Run Locally
 You can also run bikeshed on your local machine to preview the conversion. [See instructions for running bikeshed locally](https://w3c-ccg.github.io/bikeshed_instructions.html).
 
 ### ReSpec Github Pages
