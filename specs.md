@@ -103,7 +103,7 @@ To use:
 - Install the Docs to Markdown Add-on in the google document
 - Select "Convert" from the Add-on menu (see screenshot below)
 
-![Addon menu](images/addon.png)
+![Addon menu](assets/img/addon.png)
 
 ### Doc 2 ReSpec Tool (Beta)
 This is beta and not known to be tested in the CCG, but feel free to try it out: 
