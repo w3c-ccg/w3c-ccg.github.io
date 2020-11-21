@@ -23,6 +23,10 @@ Check the following:
 - Add the cleaned up audio file to github under the meeting date
     - For example: https://github.com/w3c-ccg/meetings/2020-08-04/audio.ogg
 
+### Step 2b: if you used zoom
+
+Convert the .m4a file to a .ogg file. You'll commit this is step 3 as audio.ogg
+
 ## Step 3: Commit the files
 
 - Add the log and audio files to github `meetings` repo as follows:
