@@ -4,12 +4,14 @@
 
 Go to the [scribe tool](https://w3c-ccg.github.io/meetings/scribe-tool/) and enter the date of the meeting (see screenshot)
 
-Things to check:
+<img src="assets/img/date_chooser.png" alt="date chooser" width="200"/>
+
+Check the following:
 - Ensure there's a link to the agenda ("Agenda: ...")
 - Ensure the topics are labeled ("Topic: ...")
 - Ensure the scribe is identified ("Scribe: ...")
 - Look for any find/replace suggestions in irc.log and update them ("s/../..")
-- Ensure aliases have matches (see people.json file)
+- Ensure aliases have matches (see [people.json file](https://github.com/w3c-ccg/meetings/blob/gh-pages/scribe-tool/people.json))
 
 ## Step 2: Fetch and clean audio (TODO)
 - Fetch the audio file 
