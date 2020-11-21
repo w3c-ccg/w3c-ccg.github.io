@@ -25,7 +25,9 @@ Check the following:
 
 ### Step 2b: if you used zoom
 
-Convert the .m4a file to a .ogg file. You'll commit this is step 3 as audio.ogg
+Convert the .m4a file to a .ogg file. You'll commit this is step 3 as audio.ogg.
+
+You can use an online tool like [this one](https://convertio.co/m4a-ogg/)
 
 ## Step 3: Commit the files
 
