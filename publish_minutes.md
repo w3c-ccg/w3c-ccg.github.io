@@ -14,24 +14,24 @@ Check the following:
 - Ensure aliases have matches (see [people.json file](https://github.com/w3c-ccg/meetings/blob/gh-pages/scribe-tool/people.json))
 
 ## Step 2: Fetch and clean audio (TODO)
-- Fetch the audio file 
-    - For example: `curl -# "https://w3c-ccg.s3.digitalbazaar.com/minutes/2020-08-04-audio.wav" > audio-raw.wav`
-- Open the .wav file in an audio editor (such as audacity) and clean/save the audio:
-    - Delete all audio before the Chair starts talking about the Agenda
-    - Delete all audio after the first person hangs up at the end of the call.
-    - Save the new file as audio.wav or encode to .ogg (file name audio.ogg)
-- Add the cleaned up audio file to github under the meeting date
-    - For example: https://github.com/w3c-ccg/meetings/2020-08-04/audio.ogg
 
-### Step 2b: if you used zoom
+### Step 2a: if you used Jitsi
+- You can use the `download-raw-minutes` tool in the `w3c-ccg/meetings` repository.
+    - For example, to download the audio for 2020-09-29 weekly meeting into `2020-09-29`:
+    `./download-raw-minutes -a 2020-09-29`
+    - For example, to download the audio for 2020-11-02 education meeting into `2020-11-02-vc-education`:
+    `./download-raw-minutes -a -m education 2020-11-02`
 
-Convert the .m4a file to a .ogg file. You'll commit this is step 3 as audio.ogg.
+The `audio.ogg` file will be placed into the correct directory automatically.
 
-You can use an online tool like [this one](https://convertio.co/m4a-ogg/)
+### Step 2b: if you used Zoom
+
+- Download the .m4a file from Zoom.
+- Convert the .m4a file to a .ogg file. You'll commit this is step 3 as audio.ogg. You can use an online tool like [this one](https://convertio.co/m4a-ogg/).
 
 ## Step 3: Commit the files
 
-- Add the log and audio files to github `meetings` repo as follows:
+- Ensure the log and audio files are placed into the github `meetings` repo as follows:
     - log: https://github.com/w3c-ccg/meetings/yyyy-mm-dd/irc.log
     - audio: https://github.com/w3c-ccg/meetings/yyyy-mm-dd/audio.ogg
     - Example: 
