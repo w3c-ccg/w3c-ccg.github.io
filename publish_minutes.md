@@ -12,6 +12,7 @@ Check the following:
 - Ensure the scribe is identified ("Scribe: ...")
 - Look for any find/replace suggestions in irc.log and update them ("s/../..")
 - Ensure aliases have matches (see [people.json file](https://github.com/w3c-ccg/meetings/blob/gh-pages/scribe-tool/people.json))
+- Download the IRC log by selecting and copying (you can use the copy button in the interface) the IRC log text, and pasting into a new file on your computer using any text editor (eg. Notepad, TextEdit, Sublime Text) and save it with the filename `irc.log`. 
 
 ## Step 2: Fetch and clean audio (TODO)
 
