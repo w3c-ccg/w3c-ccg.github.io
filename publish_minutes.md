@@ -7,7 +7,7 @@ Create the date directory inside the `meetings` repo:
 - If adding minutes for a task force, add a suitable suffix to the directory name. Current suffices include:
     - vc-education
     - vchttpapi
-    - did-resolution
+    - traceability
 
 Examples:
 - For a main CCG meeting occuring on 2021-06-29: `2021-06-29`
