@@ -25,10 +25,6 @@ Check the following:
 
 ## Step 3: Fetch and clean audio
 
-- Open the audio file in your browser by going to `https://meet.w3c-ccg.org/archives/w3c-ccg-{MEETING NAME}-{DATE}.ogg` and File > Save (ctrl+s or cmd+s). Name the file `audio.ogg`, and save it in the date directory you just created.
-    - for a regular CCG meeting, in the URL {MEETING NAME} will be `weekly`. Otherwise, use the task force name, eg. `education`.
-    - 
-
 Option 1: Use the "download audio" button (see above screenshot) and save in the directory created above
 
 Option 2: Command line: use the `download-raw-minutes` tool in the `w3c-ccg/meetings` repository
