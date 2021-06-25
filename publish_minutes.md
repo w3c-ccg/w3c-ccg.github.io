@@ -75,5 +75,10 @@ The automatic email sending won't happen without this.
 You can also update the minutes; changes to irc.log will trigger the github action and refresh the html.
 
 > What it does:
-> - Emails summary to ccg email group
+> - ~Emails summary to ccg email group~ (BROKEN)
 > - Tweets with the w3c_ccg account
+
+## Step 6: Send the Email (manual workaround)
+
+Take the contents of the email.log file that was generated and send the email to public-credentials@w3.org
+
