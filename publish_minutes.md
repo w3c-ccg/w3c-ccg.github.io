@@ -52,7 +52,10 @@ The `audio.ogg` file will be placed into the correct directory automatically.
 Create a text file in the created directory with the filename `group.txt`. The contents of this file tell the email-sending script what to put in the subject line when the minutes go out.
 
 - For the regular weekly CCG call, it should say simply `Credentials CG`. 
-- For task force calls use the appropriate name, eg. `CCG Verifiable Credentials for Education Task Force`. 
+- For task force calls use the appropriate name. Currently used options include
+    - CCG Verifiable Credentials for Education Task Force
+    - Verifiable Credentials HTTP API
+    - Traceability Vocabulary
 
 The automatic email sending won't happen without this.
 
