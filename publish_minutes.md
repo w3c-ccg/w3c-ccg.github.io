@@ -4,7 +4,14 @@
 
 Create the date directory inside the `meetings` repo:
 - If adding minutes for the main CCG meeting, create a directory named `yyyy-mm-dd` (eg. `2020-12-01`)
-- If adding minutes for a task force, add a suitable suffix to the directory name, eg `2020-12-01-vc-education`
+- If adding minutes for a task force, add a suitable suffix to the directory name. Current suffices include:
+    - vc-education
+    - vchttpapi
+    - did-resolution
+
+Examples:
+- For a main CCG meeting occuring on 2021-06-29: `2021-06-29`
+- For a VC-EDU meeting occuring on 2021-06-28: `2021-06-28-vc-education`
 
 ## Step 2: Fetch and clean up the log file
 
