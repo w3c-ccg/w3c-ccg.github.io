@@ -32,16 +32,18 @@ Check the following:
 
 ## Step 3: Fetch and clean audio
 
-Option 1: Use the "download audio" button (see above screenshot) and save in the directory created above as `audio.ogg`
+Option 1: For the *main* meetings, use the "download audio" button (see above screenshot) and save in the directory created above as `audio.ogg`
 
-Option 2: Command line: use the `download-raw-minutes` tool in the `w3c-ccg/meetings` repository
+> Note: could also add a feature to scribe-tool to support download of audio for task force meetings. For now, use the command line option (option 2)
+
+Option 2: For main and other task force meetings, use the command line: use the `download-raw-minutes` tool in the `w3c-ccg/meetings` repository
 
 ```
 # To download the audio for 2020-09-29 weekly meeting into 2020-09-29
 ./download-raw-minutes -a 2020-09-29
 
 # To download the audio for 2020-11-02 education meeting into 2020-11-02-vc-education
-./download-raw-minutes -a -m vc-education 2020-11-02
+./download-raw-minutes -a -m education 2020-11-02
 ```
 
 The `audio.ogg` file will be placed into the correct directory automatically.
