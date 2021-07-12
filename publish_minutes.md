@@ -32,7 +32,7 @@ Check the following:
 
 ## Step 3: Fetch and clean audio
 
-Option 1: Use the "download audio" button (see above screenshot) and save in the directory created above
+Option 1: Use the "download audio" button (see above screenshot) and save in the directory created above as `audio.ogg`
 
 Option 2: Command line: use the `download-raw-minutes` tool in the `w3c-ccg/meetings` repository
 
