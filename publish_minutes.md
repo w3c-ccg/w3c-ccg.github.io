@@ -23,6 +23,7 @@ Check the following:
 - Ensure there's a link to the agenda ("Agenda: ...")
 - Ensure the topics are labeled ("Topic: ...")
 - Ensure the scribe is identified ("Scribe: ...")
+- Other IRC commands that are helpful when cleaning up minutes: [irc_ref.html](https://w3c-ccg.github.io/irc_ref.html)
 - Look for any find/replace suggestions in irc.log and update them ("s/../..")
 - Ensure aliases have matches (see [people.json file](https://github.com/w3c-ccg/meetings/blob/gh-pages/scribe-tool/people.json))
 - Download the IRC log by doing the following:
