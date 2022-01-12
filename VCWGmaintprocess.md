@@ -2,23 +2,23 @@
 
 This describes the process for the Verifiable Credentials Working Group maintenance mode. 
 
+## Process Overview for VC Data Model Pull Requests
 
-
-1. A W3C CCG VC Specification Maintenance Group will be created.
-    1. The group will meet every 2 weeks to determine what maintenance changes need to be made to W3C VCWG documents.
-2. The Verifiable Credentials WG documents will be updated to work with this process by:
-    2. Having a git tag for the currently published version as "v1.0.0"
-3. Any change to a VCWG specification MUST be done as a pull request (PR) to the specification on a maintenance branch ([https://github.com/w3c/vc-data-model/](https://github.com/w3c/vc-data-model/))
-    3. Any new PR must happen on a branch labeled using semantic versioning "v1.0.x-&lt;maintenance-item> 
-    4. New versions published with tag "v1.0.x" where the title of the specification is changed to "v1.0, 2nd Edition", "v1.0, 3rd Edition", etc.
-        1. Specifically updates MUST NOT be published as [specification errata](https://w3c.github.io/vc-data-model/errata.html)
-    5. All PRs MUST have an IPR check performed on the maintenance branch via github plugin before being sent to the VCWG for review (see details below).
-    6. PRs SHOULD NOT make breaking changes by ensuring that any change is backwards compatible and does not remove features.
-        2. PRs that make substantive technical changes (e.g., new features), typically signalled by the test suite having to change, will require a full W3C IPR release process taking multiple months. These sorts of changes should be avoided unless absolutely necessary because they can take as long as six months to move through the process.
-4. Pull request(s) go to VCWG for thumbs up/down approval. They need to consider both charter scope and IPR. If not approved, work goes back to CCG for further refinement.
-    7. New publications into W3C Technical Report only happen for stable "v1.0.x" tags with the latest VCWG-approved proposal to publish in W3C TR-space on the main branch.
-5. Regular call times for VCWG to approve PRs -- at a minimum, every 3 months or when necessary (where two weeks advance notice is given).
-
+1. For now, we will focus only on merging new errata PRs into the VC Data Model Repository,
+   but encourage activity related to new features.
+2. Once a PR is opened, chairs and editors make judgement call on whether
+   changes are substantive or editorial.
+   <dl>
+     <dt>Editorial</dt>
+     <dd>Mark with "editorial" tag, merge into branch "v1.1"</dd>
+     <dt>Substantive</dt>
+     <dd>Mark with "substantial" tag. Substantial changes are merged into separate branch "v2.0" which will be addressed when a new WG is formed. New Features stay around as an open PR.</dd>
+   </dl>
+3. W3C CCG is notified of PRs that will be merged in the next 14 days if there
+   are no objections. A weekly issue and digest list is currently sent to the CCG mailing list to handle this
+4. When it's determined a new recommendation should go out, the W3C Verifiable
+   Credentials Working Group members meet, review all the PRs that have been
+   merged, and make a formal recommendation if agreement is reached.
 
 ## Potential maintenance items
 
