@@ -12,7 +12,7 @@ This describes the process for the Verifiable Credentials Working Group maintena
      <dt>Editorial</dt>
      <dd>Mark with "editorial" tag, merge into branch "v1.1"</dd>
      <dt>Substantive</dt>
-     <dd>Mark with "substantial" tag. Substantial changes are merged into separate branch "v2.0" which will be addressed when a new WG is formed. New Features stay around as an open PR.</dd>
+     <dd>Mark with "v2.0" tag. Substantial changes are merged into separate branch "v2.0" which will be addressed when a new WG is formed. New Features stay around as an open PR.</dd>
    </dl>
 3. W3C CCG is notified of PRs that will be merged in the next 14 days if there
    are no objections. A weekly issue and digest list is currently sent to the CCG mailing list to handle this
