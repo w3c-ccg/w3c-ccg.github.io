@@ -7,7 +7,7 @@ transition of the work item to the VCWG. They will ask if there are
 any objections and note that that the document is ready to be moved
 over to VCWG.
 
-2. Amend the work item documents from _CG-DRAFT_ to _CG-FINAL_ and export the to HTML file(s) to be published in the `credentials` directory of the [cg-reports repository](https://github.com/w3c/cg-reports/tree/main/credentials).
+2. Amend the work item documents from _CG-DRAFT_ to _CG-FINAL_, and export them to HTML file(s) to be published in the `credentials` directory of the [cg-reports repository](https://github.com/w3c/cg-reports/tree/main/credentials).
 
 3. Upon merge into the [cg-reports repository](https://github.com/w3c/cg-reports), ask the CCG Chairs to publish it as a Final Report using the CCG tooling.
 
