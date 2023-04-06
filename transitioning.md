@@ -11,7 +11,7 @@ over to VCWG.
 
 3. Upon merge into the [cg-reports repository](https://github.com/w3c/cg-reports), ask the CCG Chairs to publish it as a Final Report using the CCG tooling.
 
-4. Add the current W3C Staff Contact for the VCWG to the repository and give them Admin access. Send them an email and asking to transfer the repository to W3C, ccing the VCWG chairs on the email, and referring to the resolution in the VCWG minutes where the adoption occured. 
+4. Add the current W3C Staff Contact for the VCWG to the repository and give them Admin access. Send them an email, with CC to the VCWG chairs, asking to transfer the repository to W3C, and referring to the resolution in the VCWG minutes where the adoption occurred. 
 
 5. Update the work item document(s), once it is under the W3C organization, to note that the spec is now an "ED" (Editor's Draft).
 
